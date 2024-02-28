@@ -18,6 +18,7 @@ df = pd.merge(df_projections, df_new_players, left_on='relationships.new_player.
 # Filter DataFrame to include only rows where 'relationships.league.data.id' is '7'
 df = df[df['relationships.league.data.id'] == '7']
 
+print(df.columns)
 # Drop the specified columns
 columns_to_drop = ['type', 'id', 'attributes.adjusted_odds',
                    'attributes.custom_image', 'attributes.discount_percentage',
@@ -35,7 +36,7 @@ columns_to_drop = ['type', 'id', 'attributes.adjusted_odds',
                    'attributes.image_url', 'id_new_player', 'type_new_player', 'attributes.league', 'attributes.league_id',
                    'relationships.league.data.id_new_player', 'attributes.game_id']
 
-df = df.drop(columns=columns_to_drop)
+df = df.drop(columns=columns_to_drop, errors='ignore')
 
 # Rename columns
 column_rename_mapping = {'attributes.board_time': 'Time Posted',
@@ -57,6 +58,9 @@ column_rename_mapping = {'attributes.board_time': 'Time Posted',
                          'attributes.team_name': 'Team Name'}
 
 df = df.rename(columns=column_rename_mapping)
+
+# Filter out rows with 'Odds Type' of 'demon' or 'goblin'
+df = df[~df['Odds Type'].isin(['demon', 'goblin'])]
 
 print(df.head(3))  # Print specific columns
 

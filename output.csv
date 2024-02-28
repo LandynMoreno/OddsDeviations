@@ -1,557 +1,166 @@
-Time Posted,Opponent,Promo,Line,Odds Type,Projection Type,Rank,Refundable,Game Start Time,Stat Type,Combo Play,Display Name,Team City,Name,Position,Team (Abrreviated),Team Name
-2024-01-17T19:00:00-05:00,IND/DEN,False,18.0,standard,Single Stat,2,True,2024-01-23T19:00:00-05:00,Rebounds (Combo),True,Nikola Jokic + Myles Turner,,Nikola Jokic + Myles Turner,C/C-F,DEN/IND,
-2024-01-22T19:30:00-05:00,BKN/NYK,False,50.0,standard,Single Stat,5,True,2024-01-23T19:30:00-05:00,Points (Combo),True,Jalen Brunson + Mikal Bridges,,Jalen Brunson + Mikal Bridges,G/F,NYK/BKN,
-2024-01-22T19:30:00-05:00,BKN/NYK,False,14.5,standard,Single Stat,6,True,2024-01-23T19:30:00-05:00,Rebounds (Combo),True,Julius Randle + Mikal Bridges,,Julius Randle + Mikal Bridges,F-C/F,NYK/BKN,
-2024-01-22T19:30:00-05:00,BKN/NYK,False,13.5,standard,Single Stat,7,True,2024-01-23T19:30:00-05:00,Assists (Combo),True,Jalen Brunson + Spencer Dinwiddie,,Jalen Brunson + Spencer Dinwiddie,G,NYK/BKN,
-2024-01-22T19:30:00-05:00,BKN/NYK,False,5.0,standard,Single Stat,8,True,2024-01-23T19:30:00-05:00,3-PT Made (Combo),True,Jalen Brunson + Cameron Johnson,,Jalen Brunson + Cameron Johnson,G/F,NYK/BKN,
-2024-01-23T12:14:05-05:00,OKC/POR,False,53.5,standard,Single Stat,9,True,2024-01-23T20:00:00-05:00,Points (Combo),True,Anfernee Simons + Shai Gilgeous-Alexander,,Anfernee Simons + Shai Gilgeous-Alexander,G,POR/OKC,
-2024-01-23T12:14:05-05:00,OKC/POR,False,16.0,standard,Single Stat,10,True,2024-01-23T20:00:00-05:00,Rebounds (Combo),True,Deandre Ayton + Chet Holmgren,,Deandre Ayton + Chet Holmgren,C/C-F,POR/OKC,
-2024-01-23T12:14:05-05:00,OKC/POR,False,11.5,standard,Single Stat,11,True,2024-01-23T20:00:00-05:00,Assists (Combo),True,Malcolm Brogdon + Shai Gilgeous-Alexander,,Malcolm Brogdon + Shai Gilgeous-Alexander,G,POR/OKC,
-2024-01-23T12:14:05-05:00,OKC/POR,False,5.0,standard,Single Stat,12,True,2024-01-23T20:00:00-05:00,3-PT Made (Combo),True,Anfernee Simons + Isaiah Joe,,Anfernee Simons + Isaiah Joe,G,POR/OKC,
-2024-01-23T14:43:39-05:00,NOP/UTA,False,44.5,standard,Single Stat,13,True,2024-01-23T20:00:00-05:00,Points (Combo),True,Lauri Markkanen + Brandon Ingram,,Lauri Markkanen + Brandon Ingram,F-C/F,UTA/NOP,
-2024-01-23T14:43:39-05:00,NOP/UTA,False,14.5,standard,Single Stat,14,True,2024-01-23T20:00:00-05:00,Rebounds (Combo),True,Lauri Markkanen + Zion Williamson,,Lauri Markkanen + Zion Williamson,F-C/F,UTA/NOP,
-2024-01-23T14:43:39-05:00,NOP/UTA,False,5.5,standard,Single Stat,15,True,2024-01-23T20:00:00-05:00,3-PT Made (Combo),True,Lauri Markkanen + CJ McCollum,,Lauri Markkanen + CJ McCollum,F-C/G,UTA/NOP,
-2024-01-01T22:00:00-05:00,LAC/LAL,False,52.5,standard,Single Stat,16,True,2024-01-23T22:00:00-05:00,Points (Combo),True,Anthony Davis + Paul George,,Anthony Davis + Paul George,F-C/F,LAL/LAC,
-2024-01-01T22:00:00-05:00,LAC/LAL,False,18.5,standard,Single Stat,17,True,2024-01-23T22:00:00-05:00,Rebounds (Combo),True,Anthony Davis + Kawhi Leonard,,Anthony Davis + Kawhi Leonard,F-C/F,LAL/LAC,
-2024-01-01T22:00:00-05:00,LAC/LAL,False,16.5,standard,Single Stat,18,True,2024-01-23T22:00:00-05:00,Assists (Combo),True,D'Angelo Russell + James Harden,,D'Angelo Russell + James Harden,G,LAL/LAC,
-2024-01-01T22:00:00-05:00,LAC/LAL,False,6.5,standard,Single Stat,19,True,2024-01-23T22:00:00-05:00,3-PT Made (Combo),True,D'Angelo Russell + Paul George,,D'Angelo Russell + Paul George,G/F,LAL/LAC,
-2024-01-01T22:00:00-05:00,IND/LAL,False,48.5,standard,Single Stat,20,True,2024-01-23T19:00:00-05:00,Points (Combo),True,Jamal Murray + Kawhi Leonard,,Jamal Murray + Kawhi Leonard,G/F,DEN/LAC,
-2024-01-23T14:43:39-05:00,UTA/BKN,False,50.5,standard,Single Stat,21,True,2024-01-23T19:30:00-05:00,Points (Combo),True,Zion Williamson + Julius Randle,,Zion Williamson + Julius Randle,F,NOP/NYK,
-2024-01-23T12:14:05-05:00,POR/BKN,False,60.5,standard,Single Stat,22,True,2024-01-23T19:30:00-05:00,Points (Combo),True,Shai Gilgeous-Alexander + Jalen Brunson,,Shai Gilgeous-Alexander + Jalen Brunson,G,OKC/NYK,
-2024-01-01T22:00:00-05:00,IND/LAC,False,56.5,standard,Single Stat,23,True,2024-01-23T19:00:00-05:00,Points (Combo),True,Nikola Jokic + Anthony Davis,,Nikola Jokic + Anthony Davis,C,DEN/LAL,
-2024-01-01T22:00:00-05:00,IND/LAC,False,24.5,standard,Single Stat,25,True,2024-01-23T19:00:00-05:00,Rebounds (Combo),True,Nikola Jokic + Anthony Davis,,Nikola Jokic + Anthony Davis,C,DEN/LAL,
-2024-01-23T14:42:45-05:00,UTA/OKC,False,15.5,standard,Single Stat,26,True,2024-01-23T20:00:00-05:00,Rebounds (Combo),True,Jonas Valanciunas + Jabari Walker,,Jonas Valanciunas + Jabari Walker,C/F,NOP/POR,
-2024-01-17T19:00:00-05:00,OKC/DEN,False,15.0,standard,Single Stat,27,True,2024-01-23T19:00:00-05:00,Rebounds (Combo),True,Deandre Ayton + Myles Turner,,Deandre Ayton + Myles Turner,C,POR/IND,
-2024-01-23T12:14:05-05:00,BKN/POR,False,17.0,standard,Single Stat,28,True,2024-01-23T19:30:00-05:00,Rebounds (Combo),True,Julius Randle + Chet Holmgren,,Julius Randle + Chet Holmgren,F/C,NYK/OKC,
-2024-01-01T22:00:00-05:00,LAL/IND,False,16.0,standard,Single Stat,30,True,2024-01-23T19:00:00-05:00,Assists (Combo),True,James Harden + Jamal Murray,,James Harden + Jamal Murray,G,LAC/DEN,
-2024-01-23T14:42:42-05:00,OKC/IND,False,6.0,standard,Single Stat,31,True,2024-01-23T19:00:00-05:00,3-PT Made (Combo),True,Anfernee Simons + Michael Porter Jr.,,Anfernee Simons + Michael Porter Jr.,G/F,POR/DEN,
-2024-01-01T22:00:00-05:00,UTA/LAL,False,6.5,standard,Single Stat,32,True,2024-01-23T20:00:00-05:00,3-PT Made (Combo),True,CJ McCollum + Paul George,,CJ McCollum + Paul George,G/F,NOP/LAC,
-2024-01-01T19:00:00-05:00,IND,False,9.5,standard,Single Stat,50,True,2024-01-23T19:10:00-05:00,Rebs+Asts,False,Aaron Gordon,Denver,Aaron Gordon,F,DEN,Nuggets
-2024-01-22T19:10:00-05:00,IND,False,1.5,standard,Single Stat,50,True,2024-01-23T19:10:00-05:00,Dunks,False,Aaron Gordon,Denver,Aaron Gordon,F,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,14.5,standard,Single Stat,50,True,2024-01-23T19:10:00-05:00,Points,False,Aaron Gordon,Denver,Aaron Gordon,F,DEN,Nuggets
-2024-01-01T19:00:00-05:00,IND,False,7.0,standard,Single Stat,50,True,2024-01-23T19:10:00-05:00,Rebounds,False,Aaron Gordon,Denver,Aaron Gordon,F,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,2.5,standard,Single Stat,50,True,2024-01-23T19:10:00-05:00,Assists,False,Aaron Gordon,Denver,Aaron Gordon,F,DEN,Nuggets
-2024-01-01T19:00:00-05:00,IND,False,25.0,standard,Single Stat,50,True,2024-01-23T19:10:00-05:00,Pts+Rebs+Asts,False,Aaron Gordon,Denver,Aaron Gordon,F,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,22.0,standard,Single Stat,50,True,2024-01-23T19:10:00-05:00,Pts+Rebs,False,Aaron Gordon,Denver,Aaron Gordon,F,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,17.5,standard,Single Stat,50,True,2024-01-23T19:10:00-05:00,Pts+Asts,False,Aaron Gordon,Denver,Aaron Gordon,F,DEN,Nuggets
-2024-01-17T19:00:00-05:00,DEN,False,6.0,standard,Single Stat,51,True,2024-01-23T19:10:00-05:00,Rebounds,False,Myles Turner,Indiana,Myles Turner,C-F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,7.5,standard,Single Stat,51,True,2024-01-23T19:10:00-05:00,Rebs+Asts,False,Myles Turner,Indiana,Myles Turner,C-F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,1.5,standard,Single Stat,51,True,2024-01-23T19:10:00-05:00,Blocked Shots,False,Myles Turner,Indiana,Myles Turner,C-F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,30.0,standard,Fantasy Score,51,True,2024-01-23T19:10:00-05:00,Fantasy Score,False,Myles Turner,Indiana,Myles Turner,C-F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,15.5,standard,Single Stat,51,True,2024-01-23T19:10:00-05:00,Points,False,Myles Turner,Indiana,Myles Turner,C-F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,23.0,standard,Single Stat,51,True,2024-01-23T19:10:00-05:00,Pts+Rebs+Asts,False,Myles Turner,Indiana,Myles Turner,C-F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,3.0,standard,Single Stat,51,True,2024-01-23T19:10:00-05:00,Free Throws Made,False,Myles Turner,Indiana,Myles Turner,C-F,IND,Pacers
-2024-01-23T14:22:00-05:00,IND,False,19.5,standard,Single Stat,52,True,2024-01-23T19:10:00-05:00,FG Attempted,False,Jamal Murray,Denver,Jamal Murray,G,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,32.5,standard,Single Stat,52,True,2024-01-23T19:10:00-05:00,Pts+Asts,False,Jamal Murray,Denver,Jamal Murray,G,DEN,Nuggets
-2024-01-01T19:00:00-05:00,IND,False,11.5,standard,Single Stat,52,True,2024-01-23T19:10:00-05:00,Rebs+Asts,False,Jamal Murray,Denver,Jamal Murray,G,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,29.0,standard,Single Stat,52,True,2024-01-23T19:10:00-05:00,Pts+Rebs,False,Jamal Murray,Denver,Jamal Murray,G,DEN,Nuggets
-2024-01-23T14:02:00-05:00,IND,False,3.0,standard,Single Stat,52,True,2024-01-23T19:10:00-05:00,Free Throws Made,False,Jamal Murray,Denver,Jamal Murray,G,DEN,Nuggets
-2024-01-23T14:13:00-05:00,IND,False,6.0,standard,Single Stat,52,True,2024-01-23T19:10:00-05:00,3-PT Attempted,False,Jamal Murray,Denver,Jamal Murray,G,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,36.5,standard,Single Stat,52,True,2024-01-23T19:10:00-05:00,Pts+Rebs+Asts,False,Jamal Murray,Denver,Jamal Murray,G,DEN,Nuggets
-2024-01-23T12:37:00-05:00,IND,False,40.5,standard,Fantasy Score,52,True,2024-01-23T19:10:00-05:00,Fantasy Score,False,Jamal Murray,Denver,Jamal Murray,G,DEN,Nuggets
-2024-01-01T19:00:00-05:00,IND,False,7.0,standard,Single Stat,52,True,2024-01-23T19:10:00-05:00,Assists,False,Jamal Murray,Denver,Jamal Murray,G,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,24.5,standard,Single Stat,52,True,2024-01-23T19:10:00-05:00,Points,False,Jamal Murray,Denver,Jamal Murray,G,DEN,Nuggets
-2024-01-22T22:00:00-05:00,BKN,False,37.0,standard,Single Stat,52,True,2024-01-23T19:30:00-05:00,Minutes Played,False,Jalen Brunson,New York,Jalen Brunson,G,NYK,Knicks
-2024-01-23T11:37:00-05:00,BKN,False,21.0,standard,Single Stat,103,True,2024-01-23T19:40:00-05:00,FG Attempted,False,Jalen Brunson,New York,Jalen Brunson,G,NYK,Knicks
-2024-01-22T22:22:00-05:00,BKN,False,32.5,standard,Single Stat,103,True,2024-01-23T19:40:00-05:00,Pts+Rebs,False,Jalen Brunson,New York,Jalen Brunson,G,NYK,Knicks
-2024-01-22T22:32:00-05:00,BKN,False,36.5,standard,Single Stat,103,True,2024-01-23T19:40:00-05:00,Pts+Asts,False,Jalen Brunson,New York,Jalen Brunson,G,NYK,Knicks
-2024-01-23T11:08:00-05:00,BKN,False,5.5,standard,Single Stat,103,True,2024-01-23T19:40:00-05:00,Free Throws Made,False,Jalen Brunson,New York,Jalen Brunson,G,NYK,Knicks
-2024-01-22T22:10:00-05:00,BKN,False,7.5,standard,Single Stat,103,True,2024-01-23T19:40:00-05:00,Assists,False,Jalen Brunson,New York,Jalen Brunson,G,NYK,Knicks
-2024-01-22T22:46:00-05:00,BKN,False,2.5,standard,Single Stat,103,True,2024-01-23T19:40:00-05:00,Turnovers,False,Jalen Brunson,New York,Jalen Brunson,G,NYK,Knicks
-2024-01-22T22:10:00-05:00,BKN,False,28.5,standard,Single Stat,103,True,2024-01-23T19:40:00-05:00,Points,False,Jalen Brunson,New York,Jalen Brunson,G,NYK,Knicks
-2024-01-22T22:38:00-05:00,BKN,False,12.0,standard,Single Stat,103,True,2024-01-23T19:40:00-05:00,Rebs+Asts,False,Jalen Brunson,New York,Jalen Brunson,G,NYK,Knicks
-2024-01-22T22:15:00-05:00,BKN,False,40.5,standard,Single Stat,103,True,2024-01-23T19:40:00-05:00,Pts+Rebs+Asts,False,Jalen Brunson,New York,Jalen Brunson,G,NYK,Knicks
-2024-01-23T10:53:00-05:00,BKN,False,44.5,standard,Fantasy Score,103,True,2024-01-23T19:40:00-05:00,Fantasy Score,False,Jalen Brunson,New York,Jalen Brunson,G,NYK,Knicks
-2024-01-23T11:50:00-05:00,BKN,False,0.5,standard,Single Stat,103,True,2024-01-23T19:40:00-05:00,Offensive Rebounds,False,Jalen Brunson,New York,Jalen Brunson,G,NYK,Knicks
-2024-01-23T11:31:00-05:00,BKN,False,7.0,standard,Single Stat,103,True,2024-01-23T19:40:00-05:00,3-PT Attempted,False,Jalen Brunson,New York,Jalen Brunson,G,NYK,Knicks
-2024-01-17T19:00:00-05:00,DEN,False,4.0,standard,Single Stat,53,True,2024-01-23T19:10:00-05:00,Free Throws Made,False,Pascal Siakam,Indiana,Pascal Siakam,F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,35.5,standard,Fantasy Score,53,True,2024-01-23T19:10:00-05:00,Fantasy Score,False,Pascal Siakam,Indiana,Pascal Siakam,F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,5.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Rebounds,False,Pascal Siakam,Indiana,Pascal Siakam,F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,20.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Points,False,Pascal Siakam,Indiana,Pascal Siakam,F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,25.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Pts+Asts,False,Pascal Siakam,Indiana,Pascal Siakam,F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,31.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Pts+Rebs+Asts,False,Pascal Siakam,Indiana,Pascal Siakam,F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,5.0,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Assists,False,Pascal Siakam,Indiana,Pascal Siakam,F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,26.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Pts+Rebs,False,Pascal Siakam,Indiana,Pascal Siakam,F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,10.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Rebs+Asts,False,Pascal Siakam,Indiana,Pascal Siakam,F,IND,Pacers
-2024-01-22T22:00:00-05:00,NYK,False,36.0,standard,Single Stat,53,True,2024-01-23T19:30:00-05:00,Minutes Played,False,Mikal Bridges,Brooklyn,Mikal Bridges,F,BKN,Nets
-2024-01-22T22:10:00-05:00,NYK,False,21.5,standard,Single Stat,104,True,2024-01-23T19:40:00-05:00,Points,False,Mikal Bridges,Brooklyn,Mikal Bridges,F,BKN,Nets
-2024-01-23T11:08:00-05:00,NYK,False,4.0,standard,Single Stat,104,True,2024-01-23T19:40:00-05:00,Free Throws Made,False,Mikal Bridges,Brooklyn,Mikal Bridges,F,BKN,Nets
-2024-01-23T11:37:00-05:00,NYK,False,17.0,standard,Single Stat,104,True,2024-01-23T19:40:00-05:00,FG Attempted,False,Mikal Bridges,Brooklyn,Mikal Bridges,F,BKN,Nets
-2024-01-22T22:10:00-05:00,NYK,False,4.5,standard,Single Stat,104,True,2024-01-23T19:40:00-05:00,Rebounds,False,Mikal Bridges,Brooklyn,Mikal Bridges,F,BKN,Nets
-2024-01-23T11:31:00-05:00,NYK,False,7.0,standard,Single Stat,104,True,2024-01-23T19:40:00-05:00,3-PT Attempted,False,Mikal Bridges,Brooklyn,Mikal Bridges,F,BKN,Nets
-2024-01-22T22:15:00-05:00,NYK,False,30.0,standard,Single Stat,104,True,2024-01-23T19:40:00-05:00,Pts+Rebs+Asts,False,Mikal Bridges,Brooklyn,Mikal Bridges,F,BKN,Nets
-2024-01-22T22:10:00-05:00,NYK,False,2.5,standard,Single Stat,104,True,2024-01-23T19:40:00-05:00,3-PT Made,False,Mikal Bridges,Brooklyn,Mikal Bridges,F,BKN,Nets
-2024-01-22T22:22:00-05:00,NYK,False,26.5,standard,Single Stat,104,True,2024-01-23T19:40:00-05:00,Pts+Rebs,False,Mikal Bridges,Brooklyn,Mikal Bridges,F,BKN,Nets
-2024-01-22T22:32:00-05:00,NYK,False,25.5,standard,Single Stat,104,True,2024-01-23T19:40:00-05:00,Pts+Asts,False,Mikal Bridges,Brooklyn,Mikal Bridges,F,BKN,Nets
-2024-01-23T10:53:00-05:00,NYK,False,34.5,standard,Fantasy Score,104,True,2024-01-23T19:40:00-05:00,Fantasy Score,False,Mikal Bridges,Brooklyn,Mikal Bridges,F,BKN,Nets
-2024-01-22T22:38:00-05:00,NYK,False,8.5,standard,Single Stat,104,True,2024-01-23T19:40:00-05:00,Rebs+Asts,False,Mikal Bridges,Brooklyn,Mikal Bridges,F,BKN,Nets
-2024-01-22T22:00:00-05:00,POR,False,34.5,standard,Single Stat,54,True,2024-01-23T20:00:00-05:00,Minutes Played,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-23T00:02:00-05:00,POR,False,2.5,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Blks+Stls,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-01T20:10:00-05:00,POR,False,6.0,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Assists,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-22T23:48:00-05:00,POR,False,37.5,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-22T23:55:00-05:00,POR,False,11.5,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-22T23:34:00-05:00,POR,False,43.5,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-01T23:07:00-05:00,POR,False,32.0,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Points,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-22T23:21:00-05:00,POR,False,5.5,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Rebounds,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-22T23:43:00-05:00,POR,False,37.5,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,0.5,standard,Single Stat,159,True,2024-01-23T20:00:00-05:00,Dunks,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,52.5,standard,Fantasy Score,159,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,8.0,standard,Single Stat,159,True,2024-01-23T20:00:00-05:00,Free Throws Made,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,3.5,standard,Single Stat,159,True,2024-01-23T20:00:00-05:00,3-PT Attempted,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,20.5,standard,Single Stat,159,True,2024-01-23T20:00:00-05:00,FG Attempted,False,Shai Gilgeous-Alexander,Oklahoma City,Shai Gilgeous-Alexander,G,OKC,Thunder
-2024-01-22T19:00:00-05:00,IND,False,12.5,standard,Single Stat,54,True,2024-01-23T19:10:00-05:00,Pts+Rebs,False,Kentavious Caldwell-Pope,Denver,Kentavious Caldwell-Pope,G,DEN,Nuggets
-2024-01-23T12:37:00-05:00,IND,False,21.5,standard,Fantasy Score,54,True,2024-01-23T19:10:00-05:00,Fantasy Score,False,Kentavious Caldwell-Pope,Denver,Kentavious Caldwell-Pope,G,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,11.5,standard,Single Stat,54,True,2024-01-23T19:10:00-05:00,Pts+Asts,False,Kentavious Caldwell-Pope,Denver,Kentavious Caldwell-Pope,G,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,9.5,standard,Single Stat,54,True,2024-01-23T19:10:00-05:00,Points,False,Kentavious Caldwell-Pope,Denver,Kentavious Caldwell-Pope,G,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,23.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Pts+Rebs+Asts,False,Michael Porter Jr.,Denver,Michael Porter Jr.,F,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,22.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Pts+Rebs,False,Michael Porter Jr.,Denver,Michael Porter Jr.,F,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,16.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Points,False,Michael Porter Jr.,Denver,Michael Porter Jr.,F,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,17.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Pts+Asts,False,Michael Porter Jr.,Denver,Michael Porter Jr.,F,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,7.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Rebs+Asts,False,Michael Porter Jr.,Denver,Michael Porter Jr.,F,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,0.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Blocked Shots,False,Michael Porter Jr.,Denver,Michael Porter Jr.,F,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,0.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,Steals,False,Michael Porter Jr.,Denver,Michael Porter Jr.,F,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,2.5,standard,Single Stat,55,True,2024-01-23T19:10:00-05:00,3-PT Made,False,Michael Porter Jr.,Denver,Michael Porter Jr.,F,DEN,Nuggets
-2024-01-22T19:10:00-05:00,IND,False,0.5,standard,Single Stat,56,True,2024-01-23T19:10:00-05:00,Dunks,False,Michael Porter Jr.,Denver,Michael Porter Jr.,F,DEN,Nuggets
-2024-01-23T14:13:00-05:00,IND,False,6.5,standard,Single Stat,56,True,2024-01-23T19:10:00-05:00,3-PT Attempted,False,Michael Porter Jr.,Denver,Michael Porter Jr.,F,DEN,Nuggets
-2024-01-23T12:37:00-05:00,IND,False,28.0,standard,Fantasy Score,56,True,2024-01-23T19:10:00-05:00,Fantasy Score,False,Michael Porter Jr.,Denver,Michael Porter Jr.,F,DEN,Nuggets
-2024-01-17T19:00:00-05:00,DEN,False,19.5,standard,Fantasy Score,55,True,2024-01-23T19:10:00-05:00,Fantasy Score,False,Aaron Nesmith,Indiana,Aaron Nesmith,G-F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,11.5,standard,Single Stat,57,True,2024-01-23T19:10:00-05:00,Pts+Asts,False,Aaron Nesmith,Indiana,Aaron Nesmith,G-F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,13.5,standard,Single Stat,57,True,2024-01-23T19:10:00-05:00,Pts+Rebs,False,Aaron Nesmith,Indiana,Aaron Nesmith,G-F,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,10.5,standard,Single Stat,57,True,2024-01-23T19:10:00-05:00,Points,False,Aaron Nesmith,Indiana,Aaron Nesmith,G-F,IND,Pacers
-2024-01-22T22:00:00-05:00,OKC,False,33.5,standard,Single Stat,55,True,2024-01-23T20:00:00-05:00,Minutes Played,False,Anfernee Simons,Portland,Anfernee Simons,G,POR,Trail Blazers
-2024-01-22T23:48:00-05:00,OKC,False,25.5,standard,Single Stat,150,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Anfernee Simons,Portland,Anfernee Simons,G,POR,Trail Blazers
-2024-01-23T10:04:00-05:00,OKC,False,4.0,standard,Single Stat,150,True,2024-01-23T20:00:00-05:00,Free Throws Made,False,Anfernee Simons,Portland,Anfernee Simons,G,POR,Trail Blazers
-2024-01-23T10:04:00-05:00,OKC,False,8.5,standard,Single Stat,150,True,2024-01-23T20:00:00-05:00,3-PT Attempted,False,Anfernee Simons,Portland,Anfernee Simons,G,POR,Trail Blazers
-2024-01-22T23:55:00-05:00,OKC,False,7.5,standard,Single Stat,150,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Anfernee Simons,Portland,Anfernee Simons,G,POR,Trail Blazers
-2024-01-22T23:43:00-05:00,OKC,False,24.5,standard,Single Stat,150,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Anfernee Simons,Portland,Anfernee Simons,G,POR,Trail Blazers
-2024-01-22T23:07:00-05:00,OKC,False,21.5,standard,Single Stat,150,True,2024-01-23T20:10:00-05:00,Points,False,Anfernee Simons,Portland,Anfernee Simons,G,POR,Trail Blazers
-2024-01-23T00:01:00-05:00,OKC,False,0.5,standard,Single Stat,150,True,2024-01-23T20:10:00-05:00,Steals,False,Anfernee Simons,Portland,Anfernee Simons,G,POR,Trail Blazers
-2024-01-23T10:04:00-05:00,OKC,False,31.0,standard,Fantasy Score,150,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Anfernee Simons,Portland,Anfernee Simons,G,POR,Trail Blazers
-2024-01-22T23:34:00-05:00,OKC,False,29.0,standard,Single Stat,150,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Anfernee Simons,Portland,Anfernee Simons,G,POR,Trail Blazers
-2024-01-22T23:26:00-05:00,OKC,False,4.5,standard,Single Stat,150,True,2024-01-23T20:10:00-05:00,Assists,False,Anfernee Simons,Portland,Anfernee Simons,G,POR,Trail Blazers
-2024-01-22T19:00:00-05:00,IND,False,37.5,standard,Single Stat,56,True,2024-01-23T19:10:00-05:00,Pts+Asts,False,Nikola Jokic,Denver,Nikola Jokic,C,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,21.5,standard,Single Stat,56,True,2024-01-23T19:10:00-05:00,Rebs+Asts,False,Nikola Jokic,Denver,Nikola Jokic,C,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,40.5,standard,Single Stat,56,True,2024-01-23T19:10:00-05:00,Pts+Rebs,False,Nikola Jokic,Denver,Nikola Jokic,C,DEN,Nuggets
-2024-01-01T19:00:00-05:00,IND,False,9.0,standard,Single Stat,56,True,2024-01-23T19:10:00-05:00,Assists,False,Nikola Jokic,Denver,Nikola Jokic,C,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,49.5,standard,Single Stat,56,True,2024-01-23T19:10:00-05:00,Pts+Rebs+Asts,False,Nikola Jokic,Denver,Nikola Jokic,C,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,0.5,standard,Single Stat,56,True,2024-01-23T19:10:00-05:00,3-PT Made,False,Nikola Jokic,Denver,Nikola Jokic,C,DEN,Nuggets
-2024-01-01T19:00:00-05:00,IND,False,12.0,standard,Single Stat,56,True,2024-01-23T19:10:00-05:00,Rebounds,False,Nikola Jokic,Denver,Nikola Jokic,C,DEN,Nuggets
-2024-01-22T19:00:00-05:00,IND,False,28.5,standard,Single Stat,56,True,2024-01-23T19:10:00-05:00,Points,False,Nikola Jokic,Denver,Nikola Jokic,C,DEN,Nuggets
-2024-01-23T14:02:00-05:00,IND,False,5.5,standard,Single Stat,58,True,2024-01-23T19:10:00-05:00,Free Throws Made,False,Nikola Jokic,Denver,Nikola Jokic,C,DEN,Nuggets
-2024-01-23T12:37:00-05:00,IND,False,59.5,standard,Fantasy Score,58,True,2024-01-23T19:10:00-05:00,Fantasy Score,False,Nikola Jokic,Denver,Nikola Jokic,C,DEN,Nuggets
-2024-01-23T14:22:00-05:00,IND,False,17.5,standard,Single Stat,58,True,2024-01-23T19:10:00-05:00,FG Attempted,False,Nikola Jokic,Denver,Nikola Jokic,C,DEN,Nuggets
-2024-01-22T22:00:00-05:00,UTA,False,33.5,standard,Single Stat,56,True,2024-01-23T20:00:00-05:00,Minutes Played,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,11.0,standard,Single Stat,200,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-23T00:12:00-05:00,UTA,False,20.5,standard,Single Stat,200,True,2024-01-23T20:10:00-05:00,Points,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,6.0,standard,Single Stat,200,True,2024-01-23T20:10:00-05:00,Assists,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-23T00:38:00-05:00,UTA,False,31.5,standard,Single Stat,200,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-23T00:50:00-05:00,UTA,False,26.5,standard,Single Stat,200,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,4.0,standard,Single Stat,200,True,2024-01-23T20:00:00-05:00,3-PT Attempted,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,16.5,standard,Single Stat,200,True,2024-01-23T20:00:00-05:00,FG Attempted,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,4.5,standard,Single Stat,200,True,2024-01-23T20:00:00-05:00,Free Throws Made,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,0.5,standard,Single Stat,200,True,2024-01-23T20:00:00-05:00,Offensive Rebounds,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-23T00:59:00-05:00,UTA,False,0.5,standard,Single Stat,200,True,2024-01-23T20:10:00-05:00,Blocked Shots,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-23T01:03:00-05:00,UTA,False,1.5,standard,Single Stat,200,True,2024-01-23T20:10:00-05:00,Blks+Stls,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,0.5,standard,Single Stat,200,True,2024-01-23T20:00:00-05:00,Dunks,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,37.5,standard,Fantasy Score,200,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-23T00:46:00-05:00,UTA,False,25.0,standard,Single Stat,200,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-23T00:26:00-05:00,UTA,False,4.5,standard,Single Stat,200,True,2024-01-23T20:10:00-05:00,Rebounds,False,Brandon Ingram,New Orleans,Brandon Ingram,F,NOP,Pelicans
-2024-01-22T22:00:00-05:00,NOP,False,33.5,standard,Single Stat,57,True,2024-01-23T20:00:00-05:00,Minutes Played,False,Lauri Markkanen,Utah,Lauri Markkanen,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,9.0,standard,Single Stat,203,True,2024-01-23T20:10:00-05:00,Rebounds,False,Lauri Markkanen,Utah,Lauri Markkanen,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,11.0,standard,Single Stat,203,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Lauri Markkanen,Utah,Lauri Markkanen,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,33.5,standard,Single Stat,203,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Lauri Markkanen,Utah,Lauri Markkanen,F-C,UTA,Jazz
-2024-01-01T00:12:00-05:00,NOP,False,24.5,standard,Single Stat,203,True,2024-01-23T20:10:00-05:00,Points,False,Lauri Markkanen,Utah,Lauri Markkanen,F-C,UTA,Jazz
-2024-01-23T11:17:00-05:00,NOP,False,40.0,standard,Fantasy Score,203,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Lauri Markkanen,Utah,Lauri Markkanen,F-C,UTA,Jazz
-2024-01-23T11:17:00-05:00,NOP,False,7.5,standard,Single Stat,203,True,2024-01-23T20:00:00-05:00,3-PT Attempted,False,Lauri Markkanen,Utah,Lauri Markkanen,F-C,UTA,Jazz
-2024-01-23T11:17:00-05:00,NOP,False,1.5,standard,Single Stat,203,True,2024-01-23T20:00:00-05:00,Dunks,False,Lauri Markkanen,Utah,Lauri Markkanen,F-C,UTA,Jazz
-2024-01-23T11:17:00-05:00,NOP,False,16.5,standard,Single Stat,203,True,2024-01-23T20:00:00-05:00,FG Attempted,False,Lauri Markkanen,Utah,Lauri Markkanen,F-C,UTA,Jazz
-2024-01-23T11:17:00-05:00,NOP,False,5.0,standard,Single Stat,203,True,2024-01-23T20:00:00-05:00,Free Throws Made,False,Lauri Markkanen,Utah,Lauri Markkanen,F-C,UTA,Jazz
-2024-01-23T00:38:00-05:00,NOP,False,35.5,standard,Single Stat,203,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Lauri Markkanen,Utah,Lauri Markkanen,F-C,UTA,Jazz
-2024-01-23T00:50:00-05:00,NOP,False,26.5,standard,Single Stat,203,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Lauri Markkanen,Utah,Lauri Markkanen,F-C,UTA,Jazz
-2024-01-23T00:59:00-05:00,NOP,False,0.5,standard,Single Stat,203,True,2024-01-23T20:10:00-05:00,Blocked Shots,False,Lauri Markkanen,Utah,Lauri Markkanen,F-C,UTA,Jazz
-2024-01-17T19:00:00-05:00,DEN,False,7.5,standard,Single Stat,57,True,2024-01-23T19:10:00-05:00,3-PT Attempted,False,Buddy Hield,Indiana,Buddy Hield,G,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,24.5,standard,Fantasy Score,57,True,2024-01-23T19:10:00-05:00,Fantasy Score,False,Buddy Hield,Indiana,Buddy Hield,G,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,17.5,standard,Single Stat,59,True,2024-01-23T19:10:00-05:00,Pts+Rebs,False,Buddy Hield,Indiana,Buddy Hield,G,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,13.5,standard,Single Stat,59,True,2024-01-23T19:10:00-05:00,Points,False,Buddy Hield,Indiana,Buddy Hield,G,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,3.5,standard,Single Stat,59,True,2024-01-23T19:10:00-05:00,Rebounds,False,Buddy Hield,Indiana,Buddy Hield,G,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,20.5,standard,Single Stat,59,True,2024-01-23T19:10:00-05:00,Pts+Rebs+Asts,False,Buddy Hield,Indiana,Buddy Hield,G,IND,Pacers
-2024-01-17T19:00:00-05:00,DEN,False,17.5,standard,Single Stat,59,True,2024-01-23T19:10:00-05:00,Pts+Asts,False,Buddy Hield,Indiana,Buddy Hield,G,IND,Pacers
-2024-01-01T19:10:00-05:00,IND,False,12.5,standard,Single Stat,60,True,2024-01-23T19:10:00-05:00,Pts+Asts,False,Reggie Jackson,Denver,Reggie Jackson,G,DEN,Nuggets
-2024-01-01T19:10:00-05:00,IND,False,10.5,standard,Single Stat,60,True,2024-01-23T19:10:00-05:00,Pts+Rebs,False,Reggie Jackson,Denver,Reggie Jackson,G,DEN,Nuggets
-2024-01-01T19:10:00-05:00,IND,False,0.5,standard,Single Stat,60,True,2024-01-23T19:10:00-05:00,Steals,False,Reggie Jackson,Denver,Reggie Jackson,G,DEN,Nuggets
-2024-01-01T19:10:00-05:00,IND,False,8.5,standard,Single Stat,60,True,2024-01-23T19:10:00-05:00,Points,False,Reggie Jackson,Denver,Reggie Jackson,G,DEN,Nuggets
-2024-01-01T19:10:00-05:00,IND,False,3.5,standard,Single Stat,60,True,2024-01-23T19:10:00-05:00,Assists,False,Reggie Jackson,Denver,Reggie Jackson,G,DEN,Nuggets
-2024-01-22T22:00:00-05:00,LAL,False,36.5,standard,Single Stat,60,True,2024-01-23T22:00:00-05:00,Minutes Played,False,Paul George,LA,Paul George,F,LAC,Clippers
-2024-01-01T22:00:00-05:00,LAL,False,3.0,standard,Single Stat,255,True,2024-01-23T22:00:00-05:00,Free Throws Made,False,Paul George,LA,Paul George,F,LAC,Clippers
-2024-01-01T22:00:00-05:00,LAL,False,0.5,standard,Single Stat,255,True,2024-01-23T22:00:00-05:00,Offensive Rebounds,False,Paul George,LA,Paul George,F,LAC,Clippers
-2024-01-01T22:00:00-05:00,LAL,False,19.0,standard,Single Stat,255,True,2024-01-23T22:00:00-05:00,FG Attempted,False,Paul George,LA,Paul George,F,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,9.0,standard,Single Stat,255,True,2024-01-23T22:10:00-05:00,Rebs+Asts,False,Paul George,LA,Paul George,F,LAC,Clippers
-2024-01-01T22:00:00-05:00,LAL,False,9.5,standard,Single Stat,255,True,2024-01-23T22:00:00-05:00,3-PT Attempted,False,Paul George,LA,Paul George,F,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,39.0,standard,Fantasy Score,255,True,2024-01-23T22:10:00-05:00,Fantasy Score,False,Paul George,LA,Paul George,F,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,6.0,standard,Single Stat,255,True,2024-01-23T22:10:00-05:00,Rebounds,False,Paul George,LA,Paul George,F,LAC,Clippers
-2024-01-23T03:11:00-05:00,LAL,False,1.5,standard,Single Stat,255,True,2024-01-23T22:10:00-05:00,Turnovers,False,Paul George,LA,Paul George,F,LAC,Clippers
-2024-01-23T02:54:00-05:00,LAL,False,30.5,standard,Single Stat,255,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,Paul George,LA,Paul George,F,LAC,Clippers
-2024-01-23T02:28:00-05:00,LAL,False,24.5,standard,Single Stat,255,True,2024-01-23T22:10:00-05:00,Points,False,Paul George,LA,Paul George,F,LAC,Clippers
-2024-01-23T02:58:00-05:00,LAL,False,27.5,standard,Single Stat,255,True,2024-01-23T22:10:00-05:00,Pts+Asts,False,Paul George,LA,Paul George,F,LAC,Clippers
-2024-01-23T02:49:00-05:00,LAL,False,33.5,standard,Single Stat,255,True,2024-01-23T22:10:00-05:00,Pts+Rebs+Asts,False,Paul George,LA,Paul George,F,LAC,Clippers
-2024-01-22T21:30:00-05:00,DEN,False,10.5,standard,Single Stat,61,True,2024-01-23T19:10:00-05:00,Pts+Rebs,False,Andrew Nembhard,Indiana,Andrew Nembhard,G-F,IND,Pacers
-2024-01-22T21:30:00-05:00,DEN,False,8.5,standard,Single Stat,61,True,2024-01-23T19:10:00-05:00,Points,False,Andrew Nembhard,Indiana,Andrew Nembhard,G-F,IND,Pacers
-2024-01-22T21:30:00-05:00,DEN,False,0.5,standard,Single Stat,61,True,2024-01-23T19:10:00-05:00,3-PT Made,False,Andrew Nembhard,Indiana,Andrew Nembhard,G-F,IND,Pacers
-2024-01-22T21:30:00-05:00,DEN,False,13.5,standard,Single Stat,63,True,2024-01-23T19:10:00-05:00,Pts+Rebs,False,Bennedict Mathurin,Indiana,Bennedict Mathurin,G-F,IND,Pacers
-2024-01-22T21:30:00-05:00,DEN,False,0.5,standard,Single Stat,63,True,2024-01-23T19:10:00-05:00,Blks+Stls,False,Bennedict Mathurin,Indiana,Bennedict Mathurin,G-F,IND,Pacers
-2024-01-22T21:30:00-05:00,DEN,False,10.5,standard,Single Stat,63,True,2024-01-23T19:10:00-05:00,Points,False,Bennedict Mathurin,Indiana,Bennedict Mathurin,G-F,IND,Pacers
-2024-01-22T21:30:00-05:00,DEN,False,12.5,standard,Single Stat,63,True,2024-01-23T19:10:00-05:00,Pts+Asts,False,Bennedict Mathurin,Indiana,Bennedict Mathurin,G-F,IND,Pacers
-2024-01-22T21:30:00-05:00,DEN,False,2.5,standard,Single Stat,63,True,2024-01-23T19:10:00-05:00,Rebounds,False,Bennedict Mathurin,Indiana,Bennedict Mathurin,G-F,IND,Pacers
-2024-01-01T19:10:00-05:00,IND,False,2.5,standard,Single Stat,64,True,2024-01-23T19:10:00-05:00,Rebounds,False,Peyton Watson,Denver,Peyton Watson,G,DEN,Nuggets
-2024-01-01T19:10:00-05:00,IND,False,0.5,standard,Single Stat,64,True,2024-01-23T19:10:00-05:00,Blocked Shots,False,Peyton Watson,Denver,Peyton Watson,G,DEN,Nuggets
-2024-01-22T22:15:00-05:00,NYK,False,18.5,standard,Single Stat,100,True,2024-01-23T19:40:00-05:00,Pts+Rebs+Asts,False,Cameron Johnson,Brooklyn,Cameron Johnson,F,BKN,Nets
-2024-01-22T22:22:00-05:00,NYK,False,16.5,standard,Single Stat,100,True,2024-01-23T19:40:00-05:00,Pts+Rebs,False,Cameron Johnson,Brooklyn,Cameron Johnson,F,BKN,Nets
-2024-01-22T22:10:00-05:00,NYK,False,3.5,standard,Single Stat,100,True,2024-01-23T19:40:00-05:00,Rebounds,False,Cameron Johnson,Brooklyn,Cameron Johnson,F,BKN,Nets
-2024-01-23T11:31:00-05:00,NYK,False,6.0,standard,Single Stat,100,True,2024-01-23T19:40:00-05:00,3-PT Attempted,False,Cameron Johnson,Brooklyn,Cameron Johnson,F,BKN,Nets
-2024-01-22T22:32:00-05:00,NYK,False,14.5,standard,Single Stat,100,True,2024-01-23T19:40:00-05:00,Pts+Asts,False,Cameron Johnson,Brooklyn,Cameron Johnson,F,BKN,Nets
-2024-01-22T22:10:00-05:00,NYK,False,12.5,standard,Single Stat,100,True,2024-01-23T19:40:00-05:00,Points,False,Cameron Johnson,Brooklyn,Cameron Johnson,F,BKN,Nets
-2024-01-23T10:53:00-05:00,NYK,False,22.5,standard,Fantasy Score,100,True,2024-01-23T19:40:00-05:00,Fantasy Score,False,Cameron Johnson,Brooklyn,Cameron Johnson,F,BKN,Nets
-2024-01-22T22:10:00-05:00,NYK,False,7.0,standard,Single Stat,102,True,2024-01-23T19:40:00-05:00,Points,False,Dorian Finney-Smith,Brooklyn,Dorian Finney-Smith,F,BKN,Nets
-2024-01-22T22:10:00-05:00,NYK,False,4.5,standard,Single Stat,102,True,2024-01-23T19:40:00-05:00,Rebounds,False,Dorian Finney-Smith,Brooklyn,Dorian Finney-Smith,F,BKN,Nets
-2024-01-22T22:22:00-05:00,NYK,False,11.5,standard,Single Stat,102,True,2024-01-23T19:40:00-05:00,Pts+Rebs,False,Dorian Finney-Smith,Brooklyn,Dorian Finney-Smith,F,BKN,Nets
-2024-01-22T22:46:00-05:00,NYK,False,0.5,standard,Single Stat,102,True,2024-01-23T19:40:00-05:00,Turnovers,False,Dorian Finney-Smith,Brooklyn,Dorian Finney-Smith,F,BKN,Nets
-2024-01-23T10:53:00-05:00,NYK,False,18.0,standard,Fantasy Score,102,True,2024-01-23T19:40:00-05:00,Fantasy Score,False,Dorian Finney-Smith,Brooklyn,Dorian Finney-Smith,F,BKN,Nets
-2024-01-23T11:55:00-05:00,BKN,False,7.5,standard,Single Stat,105,True,2024-01-23T19:40:00-05:00,Defensive Rebounds,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-22T22:10:00-05:00,BKN,False,10.0,standard,Single Stat,105,True,2024-01-23T19:40:00-05:00,Rebounds,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-23T11:31:00-05:00,BKN,False,6.5,standard,Single Stat,105,True,2024-01-23T19:40:00-05:00,3-PT Attempted,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-01T19:40:00-05:00,BKN,False,5.0,standard,Single Stat,105,True,2024-01-23T19:40:00-05:00,Assists,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-22T22:22:00-05:00,BKN,False,35.5,standard,Single Stat,105,True,2024-01-23T19:40:00-05:00,Pts+Rebs,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-23T11:37:00-05:00,BKN,False,19.0,standard,Single Stat,105,True,2024-01-23T19:40:00-05:00,FG Attempted,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-22T22:32:00-05:00,BKN,False,30.5,standard,Single Stat,105,True,2024-01-23T19:40:00-05:00,Pts+Asts,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-23T12:00:00-05:00,BKN,False,0.5,standard,Single Stat,105,True,2024-01-23T19:40:00-05:00,Dunks,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-22T22:38:00-05:00,BKN,False,15.0,standard,Single Stat,105,True,2024-01-23T19:40:00-05:00,Rebs+Asts,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-23T10:53:00-05:00,BKN,False,43.5,standard,Fantasy Score,105,True,2024-01-23T19:40:00-05:00,Fantasy Score,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-23T11:08:00-05:00,BKN,False,5.0,standard,Single Stat,105,True,2024-01-23T19:40:00-05:00,Free Throws Made,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-22T22:46:00-05:00,BKN,False,3.5,standard,Single Stat,105,True,2024-01-23T19:40:00-05:00,Turnovers,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-22T22:10:00-05:00,BKN,False,25.5,standard,Single Stat,105,True,2024-01-23T19:40:00-05:00,Points,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-22T22:15:00-05:00,BKN,False,40.0,standard,Single Stat,105,True,2024-01-23T19:40:00-05:00,Pts+Rebs+Asts,False,Julius Randle,New York,Julius Randle,F-C,NYK,Knicks
-2024-01-23T10:53:00-05:00,NYK,False,36.0,standard,Fantasy Score,106,True,2024-01-23T19:40:00-05:00,Fantasy Score,False,Nicolas Claxton,Brooklyn,Nicolas Claxton,C,BKN,Nets
-2024-01-22T22:32:00-05:00,NYK,False,15.5,standard,Single Stat,106,True,2024-01-23T19:40:00-05:00,Pts+Asts,False,Nicolas Claxton,Brooklyn,Nicolas Claxton,C,BKN,Nets
-2024-01-23T12:00:00-05:00,NYK,False,1.5,standard,Single Stat,106,True,2024-01-23T19:40:00-05:00,Dunks,False,Nicolas Claxton,Brooklyn,Nicolas Claxton,C,BKN,Nets
-2024-01-22T22:22:00-05:00,NYK,False,24.5,standard,Single Stat,106,True,2024-01-23T19:40:00-05:00,Pts+Rebs,False,Nicolas Claxton,Brooklyn,Nicolas Claxton,C,BKN,Nets
-2024-01-22T22:15:00-05:00,NYK,False,26.5,standard,Single Stat,106,True,2024-01-23T19:40:00-05:00,Pts+Rebs+Asts,False,Nicolas Claxton,Brooklyn,Nicolas Claxton,C,BKN,Nets
-2024-01-22T22:10:00-05:00,NYK,False,13.5,standard,Single Stat,106,True,2024-01-23T19:40:00-05:00,Points,False,Nicolas Claxton,Brooklyn,Nicolas Claxton,C,BKN,Nets
-2024-01-01T19:40:00-05:00,NYK,False,11.0,standard,Single Stat,106,True,2024-01-23T19:40:00-05:00,Rebounds,False,Nicolas Claxton,Brooklyn,Nicolas Claxton,C,BKN,Nets
-2024-01-01T19:40:00-05:00,NYK,False,13.0,standard,Single Stat,106,True,2024-01-23T19:40:00-05:00,Rebs+Asts,False,Nicolas Claxton,Brooklyn,Nicolas Claxton,C,BKN,Nets
-2024-01-23T11:55:00-05:00,NYK,False,8.0,standard,Single Stat,106,True,2024-01-23T19:40:00-05:00,Defensive Rebounds,False,Nicolas Claxton,Brooklyn,Nicolas Claxton,C,BKN,Nets
-2024-01-22T22:22:00-05:00,BKN,False,19.5,standard,Single Stat,107,True,2024-01-23T19:40:00-05:00,Pts+Rebs,False,OG Anunoby,New York,OG Anunoby,G-F,NYK,Knicks
-2024-01-22T22:10:00-05:00,BKN,False,14.5,standard,Single Stat,107,True,2024-01-23T19:40:00-05:00,Points,False,OG Anunoby,New York,OG Anunoby,G-F,NYK,Knicks
-2024-01-22T22:32:00-05:00,BKN,False,16.5,standard,Single Stat,107,True,2024-01-23T19:40:00-05:00,Pts+Asts,False,OG Anunoby,New York,OG Anunoby,G-F,NYK,Knicks
-2024-01-22T22:15:00-05:00,BKN,False,21.5,standard,Single Stat,107,True,2024-01-23T19:40:00-05:00,Pts+Rebs+Asts,False,OG Anunoby,New York,OG Anunoby,G-F,NYK,Knicks
-2024-01-22T22:10:00-05:00,NYK,False,13.5,standard,Single Stat,108,True,2024-01-23T19:40:00-05:00,Points,False,Spencer Dinwiddie,Brooklyn,Spencer Dinwiddie,G,BKN,Nets
-2024-01-22T22:38:00-05:00,NYK,False,9.0,standard,Single Stat,108,True,2024-01-23T19:40:00-05:00,Rebs+Asts,False,Spencer Dinwiddie,Brooklyn,Spencer Dinwiddie,G,BKN,Nets
-2024-01-23T10:53:00-05:00,NYK,False,26.5,standard,Fantasy Score,108,True,2024-01-23T19:40:00-05:00,Fantasy Score,False,Spencer Dinwiddie,Brooklyn,Spencer Dinwiddie,G,BKN,Nets
-2024-01-22T22:22:00-05:00,NYK,False,16.5,standard,Single Stat,108,True,2024-01-23T19:40:00-05:00,Pts+Rebs,False,Spencer Dinwiddie,Brooklyn,Spencer Dinwiddie,G,BKN,Nets
-2024-01-23T11:37:00-05:00,NYK,False,10.0,standard,Single Stat,108,True,2024-01-23T19:40:00-05:00,FG Attempted,False,Spencer Dinwiddie,Brooklyn,Spencer Dinwiddie,G,BKN,Nets
-2024-01-23T11:31:00-05:00,NYK,False,6.0,standard,Single Stat,108,True,2024-01-23T19:40:00-05:00,3-PT Attempted,False,Spencer Dinwiddie,Brooklyn,Spencer Dinwiddie,G,BKN,Nets
-2024-01-22T22:32:00-05:00,NYK,False,19.5,standard,Single Stat,108,True,2024-01-23T19:40:00-05:00,Pts+Asts,False,Spencer Dinwiddie,Brooklyn,Spencer Dinwiddie,G,BKN,Nets
-2024-01-23T11:08:00-05:00,NYK,False,2.5,standard,Single Stat,108,True,2024-01-23T19:40:00-05:00,Free Throws Made,False,Spencer Dinwiddie,Brooklyn,Spencer Dinwiddie,G,BKN,Nets
-2024-01-22T22:10:00-05:00,NYK,False,6.0,standard,Single Stat,108,True,2024-01-23T19:40:00-05:00,Assists,False,Spencer Dinwiddie,Brooklyn,Spencer Dinwiddie,G,BKN,Nets
-2024-01-22T22:15:00-05:00,NYK,False,22.0,standard,Single Stat,108,True,2024-01-23T19:40:00-05:00,Pts+Rebs+Asts,False,Spencer Dinwiddie,Brooklyn,Spencer Dinwiddie,G,BKN,Nets
-2024-01-23T12:06:00-05:00,BKN,False,19.5,standard,Single Stat,109,True,2024-01-23T19:40:00-05:00,Pts+Rebs+Asts,False,Donte DiVincenzo,New York,Donte DiVincenzo,G,NYK,Knicks
-2024-01-23T12:05:00-05:00,BKN,False,12.5,standard,Single Stat,109,True,2024-01-23T19:40:00-05:00,Points,False,Donte DiVincenzo,New York,Donte DiVincenzo,G,NYK,Knicks
-2024-01-23T12:07:00-05:00,BKN,False,17.5,standard,Single Stat,109,True,2024-01-23T19:40:00-05:00,Pts+Rebs,False,Donte DiVincenzo,New York,Donte DiVincenzo,G,NYK,Knicks
-2024-01-23T12:08:00-05:00,BKN,False,15.5,standard,Single Stat,109,True,2024-01-23T19:40:00-05:00,Pts+Asts,False,Donte DiVincenzo,New York,Donte DiVincenzo,G,NYK,Knicks
-2024-01-01T19:40:00-05:00,NYK,False,19.5,standard,Single Stat,110,True,2024-01-23T19:40:00-05:00,Pts+Asts,False,Cam Thomas,Brooklyn,Cam Thomas,G,BKN,Nets
-2024-01-01T19:40:00-05:00,NYK,False,19.5,standard,Single Stat,110,True,2024-01-23T19:40:00-05:00,Pts+Rebs,False,Cam Thomas,Brooklyn,Cam Thomas,G,BKN,Nets
-2024-01-01T19:40:00-05:00,NYK,False,17.5,standard,Single Stat,110,True,2024-01-23T19:40:00-05:00,Points,False,Cam Thomas,Brooklyn,Cam Thomas,G,BKN,Nets
-2024-01-01T19:40:00-05:00,NYK,False,22.5,standard,Single Stat,110,True,2024-01-23T19:40:00-05:00,Pts+Rebs+Asts,False,Cam Thomas,Brooklyn,Cam Thomas,G,BKN,Nets
-2024-01-01T19:40:00-05:00,BKN,False,7.0,standard,Single Stat,111,True,2024-01-23T19:40:00-05:00,Rebounds,False,Josh Hart,New York,Josh Hart,G,NYK,Knicks
-2024-01-01T19:40:00-05:00,BKN,False,9.5,standard,Single Stat,111,True,2024-01-23T19:40:00-05:00,Rebs+Asts,False,Josh Hart,New York,Josh Hart,G,NYK,Knicks
-2024-01-01T19:40:00-05:00,BKN,False,14.5,standard,Single Stat,111,True,2024-01-23T19:40:00-05:00,Pts+Rebs,False,Josh Hart,New York,Josh Hart,G,NYK,Knicks
-2024-01-01T19:40:00-05:00,BKN,False,0.5,standard,Single Stat,111,True,2024-01-23T19:40:00-05:00,Steals,False,Josh Hart,New York,Josh Hart,G,NYK,Knicks
-2024-01-01T19:40:00-05:00,BKN,False,7.0,standard,Single Stat,111,True,2024-01-23T19:40:00-05:00,Points,False,Josh Hart,New York,Josh Hart,G,NYK,Knicks
-2024-01-01T19:40:00-05:00,BKN,False,17.0,standard,Single Stat,111,True,2024-01-23T19:40:00-05:00,Pts+Rebs+Asts,False,Josh Hart,New York,Josh Hart,G,NYK,Knicks
-2024-01-01T19:40:00-05:00,BKN,False,5.5,standard,Single Stat,113,True,2024-01-23T19:40:00-05:00,Rebounds,False,Jericho Sims,New York,Jericho Sims,C,NYK,Knicks
-2024-01-01T19:40:00-05:00,NYK,False,6.5,standard,Single Stat,114,True,2024-01-23T19:40:00-05:00,Points,False,Dennis Smith Jr.,Brooklyn,Dennis Smith Jr.,G,BKN,Nets
-2024-01-01T19:40:00-05:00,NYK,False,0.5,standard,Single Stat,114,True,2024-01-23T19:40:00-05:00,3-PT Made,False,Dennis Smith Jr.,Brooklyn,Dennis Smith Jr.,G,BKN,Nets
-2024-01-01T19:40:00-05:00,NYK,False,10.5,standard,Single Stat,114,True,2024-01-23T19:40:00-05:00,Pts+Asts,False,Dennis Smith Jr.,Brooklyn,Dennis Smith Jr.,G,BKN,Nets
-2024-01-01T19:40:00-05:00,BKN,False,6.0,standard,Single Stat,115,True,2024-01-23T19:40:00-05:00,Points,False,Quentin Grimes,New York,Quentin Grimes,G,NYK,Knicks
-2024-01-01T19:40:00-05:00,BKN,False,0.5,standard,Single Stat,115,True,2024-01-23T19:40:00-05:00,Blks+Stls,False,Quentin Grimes,New York,Quentin Grimes,G,NYK,Knicks
-2024-01-01T19:40:00-05:00,BKN,False,1.5,standard,Single Stat,115,True,2024-01-23T19:40:00-05:00,3-PT Made,False,Quentin Grimes,New York,Quentin Grimes,G,NYK,Knicks
-2024-01-01T19:40:00-05:00,NYK,False,10.0,standard,Single Stat,116,True,2024-01-23T19:40:00-05:00,Pts+Rebs,False,Lonnie Walker IV,Brooklyn,Lonnie Walker IV,G,BKN,Nets
-2024-01-01T19:40:00-05:00,NYK,False,8.0,standard,Single Stat,116,True,2024-01-23T19:40:00-05:00,Points,False,Lonnie Walker IV,Brooklyn,Lonnie Walker IV,G,BKN,Nets
-2024-01-01T19:40:00-05:00,NYK,False,0.5,standard,Single Stat,116,True,2024-01-23T19:40:00-05:00,Blks+Stls,False,Lonnie Walker IV,Brooklyn,Lonnie Walker IV,G,BKN,Nets
-2024-01-22T23:07:00-05:00,POR,False,17.5,standard,Single Stat,151,True,2024-01-23T20:10:00-05:00,Points,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-22T23:43:00-05:00,POR,False,24.5,standard,Single Stat,151,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-22T23:21:00-05:00,POR,False,7.0,standard,Single Stat,151,True,2024-01-23T20:10:00-05:00,Rebounds,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-22T23:48:00-05:00,POR,False,20.5,standard,Single Stat,151,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-22T23:31:00-05:00,POR,False,1.5,standard,Single Stat,151,True,2024-01-23T20:10:00-05:00,3-PT Made,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,1.5,standard,Single Stat,151,True,2024-01-23T20:00:00-05:00,Dunks,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-22T23:55:00-05:00,POR,False,10.5,standard,Single Stat,151,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,13.0,standard,Single Stat,151,True,2024-01-23T20:00:00-05:00,FG Attempted,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,4.0,standard,Single Stat,151,True,2024-01-23T20:00:00-05:00,3-PT Attempted,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-23T00:05:00-05:00,POR,False,1.5,standard,Single Stat,151,True,2024-01-23T20:10:00-05:00,Turnovers,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-01T23:34:00-05:00,POR,False,28.0,standard,Single Stat,151,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,37.5,standard,Fantasy Score,151,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,1.5,standard,Single Stat,151,True,2024-01-23T20:00:00-05:00,Offensive Rebounds,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,6.0,standard,Single Stat,151,True,2024-01-23T20:00:00-05:00,Defensive Rebounds,False,Chet Holmgren,Oklahoma City,Chet Holmgren,C-F,OKC,Thunder
-2024-01-22T23:55:00-05:00,OKC,False,10.0,standard,Single Stat,152,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Deandre Ayton,Portland,Deandre Ayton,C,POR,Trail Blazers
-2024-01-22T23:34:00-05:00,OKC,False,21.5,standard,Single Stat,152,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Deandre Ayton,Portland,Deandre Ayton,C,POR,Trail Blazers
-2024-01-22T23:21:00-05:00,OKC,False,9.0,standard,Single Stat,152,True,2024-01-23T20:10:00-05:00,Rebounds,False,Deandre Ayton,Portland,Deandre Ayton,C,POR,Trail Blazers
-2024-01-23T00:02:00-05:00,OKC,False,1.5,standard,Single Stat,152,True,2024-01-23T20:10:00-05:00,Blks+Stls,False,Deandre Ayton,Portland,Deandre Ayton,C,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,21.0,standard,Single Stat,152,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Deandre Ayton,Portland,Deandre Ayton,C,POR,Trail Blazers
-2024-01-23T10:04:00-05:00,OKC,False,26.5,standard,Fantasy Score,152,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Deandre Ayton,Portland,Deandre Ayton,C,POR,Trail Blazers
-2024-01-22T23:48:00-05:00,OKC,False,12.5,standard,Single Stat,152,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Deandre Ayton,Portland,Deandre Ayton,C,POR,Trail Blazers
-2024-01-23T10:04:00-05:00,OKC,False,1.5,standard,Single Stat,152,True,2024-01-23T20:00:00-05:00,Free Throws Made,False,Deandre Ayton,Portland,Deandre Ayton,C,POR,Trail Blazers
-2024-01-23T10:04:00-05:00,OKC,False,3.0,standard,Single Stat,152,True,2024-01-23T20:00:00-05:00,Offensive Rebounds,False,Deandre Ayton,Portland,Deandre Ayton,C,POR,Trail Blazers
-2024-01-22T23:07:00-05:00,OKC,False,11.5,standard,Single Stat,152,True,2024-01-23T20:10:00-05:00,Points,False,Deandre Ayton,Portland,Deandre Ayton,C,POR,Trail Blazers
-2024-01-23T00:01:00-05:00,OKC,False,0.5,standard,Single Stat,152,True,2024-01-23T20:10:00-05:00,Steals,False,Deandre Ayton,Portland,Deandre Ayton,C,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,POR,False,4.0,standard,Single Stat,153,True,2024-01-23T20:10:00-05:00,Rebounds,False,Jalen Williams,Oklahoma City,Jalen Williams,G-F,OKC,Thunder
-2024-01-22T23:07:00-05:00,POR,False,19.5,standard,Single Stat,153,True,2024-01-23T20:10:00-05:00,Points,False,Jalen Williams,Oklahoma City,Jalen Williams,G-F,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,14.0,standard,Single Stat,153,True,2024-01-23T20:00:00-05:00,FG Attempted,False,Jalen Williams,Oklahoma City,Jalen Williams,G-F,OKC,Thunder
-2024-01-22T23:43:00-05:00,POR,False,23.5,standard,Single Stat,153,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Jalen Williams,Oklahoma City,Jalen Williams,G-F,OKC,Thunder
-2024-01-22T23:48:00-05:00,POR,False,23.5,standard,Single Stat,153,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Jalen Williams,Oklahoma City,Jalen Williams,G-F,OKC,Thunder
-2024-01-22T23:59:00-05:00,POR,False,0.5,standard,Single Stat,153,True,2024-01-23T20:10:00-05:00,Blocked Shots,False,Jalen Williams,Oklahoma City,Jalen Williams,G-F,OKC,Thunder
-2024-01-22T23:34:00-05:00,POR,False,28.5,standard,Single Stat,153,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Jalen Williams,Oklahoma City,Jalen Williams,G-F,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,3.0,standard,Single Stat,153,True,2024-01-23T20:00:00-05:00,Free Throws Made,False,Jalen Williams,Oklahoma City,Jalen Williams,G-F,OKC,Thunder
-2024-01-22T23:55:00-05:00,POR,False,8.5,standard,Single Stat,153,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Jalen Williams,Oklahoma City,Jalen Williams,G-F,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,36.0,standard,Fantasy Score,153,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Jalen Williams,Oklahoma City,Jalen Williams,G-F,OKC,Thunder
-2024-01-23T00:01:00-05:00,POR,False,1.5,standard,Single Stat,153,True,2024-01-23T20:10:00-05:00,Steals,False,Jalen Williams,Oklahoma City,Jalen Williams,G-F,OKC,Thunder
-2024-01-22T23:59:00-05:00,OKC,False,0.5,standard,Single Stat,154,True,2024-01-23T20:10:00-05:00,Blocked Shots,False,Jerami Grant,Portland,Jerami Grant,F,POR,Trail Blazers
-2024-01-23T00:01:00-05:00,OKC,False,0.5,standard,Single Stat,154,True,2024-01-23T20:10:00-05:00,Steals,False,Jerami Grant,Portland,Jerami Grant,F,POR,Trail Blazers
-2024-01-23T10:04:00-05:00,OKC,False,29.0,standard,Fantasy Score,154,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Jerami Grant,Portland,Jerami Grant,F,POR,Trail Blazers
-2024-01-23T10:04:00-05:00,OKC,False,0.5,standard,Single Stat,154,True,2024-01-23T20:00:00-05:00,Offensive Rebounds,False,Jerami Grant,Portland,Jerami Grant,F,POR,Trail Blazers
-2024-01-23T10:04:00-05:00,OKC,False,4.5,standard,Single Stat,154,True,2024-01-23T20:00:00-05:00,Free Throws Made,False,Jerami Grant,Portland,Jerami Grant,F,POR,Trail Blazers
-2024-01-22T23:48:00-05:00,OKC,False,21.5,standard,Single Stat,154,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Jerami Grant,Portland,Jerami Grant,F,POR,Trail Blazers
-2024-01-22T23:43:00-05:00,OKC,False,22.5,standard,Single Stat,154,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Jerami Grant,Portland,Jerami Grant,F,POR,Trail Blazers
-2024-01-22T23:34:00-05:00,OKC,False,25.5,standard,Single Stat,154,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Jerami Grant,Portland,Jerami Grant,F,POR,Trail Blazers
-2024-01-22T23:07:00-05:00,OKC,False,18.5,standard,Single Stat,154,True,2024-01-23T20:10:00-05:00,Points,False,Jerami Grant,Portland,Jerami Grant,F,POR,Trail Blazers
-2024-01-22T23:34:00-05:00,POR,False,23.0,standard,Single Stat,155,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Josh Giddey,Oklahoma City,Josh Giddey,G,OKC,Thunder
-2024-01-22T23:48:00-05:00,POR,False,15.5,standard,Single Stat,155,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Josh Giddey,Oklahoma City,Josh Giddey,G,OKC,Thunder
-2024-01-22T23:21:00-05:00,POR,False,6.5,standard,Single Stat,155,True,2024-01-23T20:10:00-05:00,Rebounds,False,Josh Giddey,Oklahoma City,Josh Giddey,G,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,26.5,standard,Fantasy Score,155,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Josh Giddey,Oklahoma City,Josh Giddey,G,OKC,Thunder
-2024-01-22T23:55:00-05:00,POR,False,11.0,standard,Single Stat,155,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Josh Giddey,Oklahoma City,Josh Giddey,G,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,1.5,standard,Single Stat,155,True,2024-01-23T20:00:00-05:00,Free Throws Made,False,Josh Giddey,Oklahoma City,Josh Giddey,G,OKC,Thunder
-2024-01-01T20:10:00-05:00,POR,False,4.5,standard,Single Stat,155,True,2024-01-23T20:10:00-05:00,Assists,False,Josh Giddey,Oklahoma City,Josh Giddey,G,OKC,Thunder
-2024-01-22T23:43:00-05:00,POR,False,18.5,standard,Single Stat,155,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Josh Giddey,Oklahoma City,Josh Giddey,G,OKC,Thunder
-2024-01-22T23:07:00-05:00,POR,False,11.5,standard,Single Stat,155,True,2024-01-23T20:10:00-05:00,Points,False,Josh Giddey,Oklahoma City,Josh Giddey,G,OKC,Thunder
-2024-01-23T10:04:00-05:00,OKC,False,5.0,standard,Single Stat,156,True,2024-01-23T20:00:00-05:00,3-PT Attempted,False,Malcolm Brogdon,Portland,Malcolm Brogdon,G,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,10.0,standard,Single Stat,156,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Malcolm Brogdon,Portland,Malcolm Brogdon,G,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,4.0,standard,Single Stat,156,True,2024-01-23T20:10:00-05:00,Rebounds,False,Malcolm Brogdon,Portland,Malcolm Brogdon,G,POR,Trail Blazers
-2024-01-22T23:48:00-05:00,OKC,False,22.5,standard,Single Stat,156,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Malcolm Brogdon,Portland,Malcolm Brogdon,G,POR,Trail Blazers
-2024-01-22T23:07:00-05:00,OKC,False,16.5,standard,Single Stat,156,True,2024-01-23T20:10:00-05:00,Points,False,Malcolm Brogdon,Portland,Malcolm Brogdon,G,POR,Trail Blazers
-2024-01-23T10:04:00-05:00,OKC,False,31.0,standard,Fantasy Score,156,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Malcolm Brogdon,Portland,Malcolm Brogdon,G,POR,Trail Blazers
-2024-01-22T23:34:00-05:00,OKC,False,26.5,standard,Single Stat,156,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Malcolm Brogdon,Portland,Malcolm Brogdon,G,POR,Trail Blazers
-2024-01-23T10:04:00-05:00,OKC,False,0.5,standard,Single Stat,156,True,2024-01-23T20:00:00-05:00,Offensive Rebounds,False,Malcolm Brogdon,Portland,Malcolm Brogdon,G,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,5.5,standard,Single Stat,156,True,2024-01-23T20:10:00-05:00,Assists,False,Malcolm Brogdon,Portland,Malcolm Brogdon,G,POR,Trail Blazers
-2024-01-23T10:04:00-05:00,OKC,False,2.5,standard,Single Stat,156,True,2024-01-23T20:00:00-05:00,Free Throws Made,False,Malcolm Brogdon,Portland,Malcolm Brogdon,G,POR,Trail Blazers
-2024-01-23T00:01:00-05:00,OKC,False,0.5,standard,Single Stat,156,True,2024-01-23T20:10:00-05:00,Steals,False,Malcolm Brogdon,Portland,Malcolm Brogdon,G,POR,Trail Blazers
-2024-01-22T23:43:00-05:00,OKC,False,20.5,standard,Single Stat,156,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Malcolm Brogdon,Portland,Malcolm Brogdon,G,POR,Trail Blazers
-2024-01-23T00:02:00-05:00,POR,False,1.5,standard,Single Stat,157,True,2024-01-23T20:10:00-05:00,Blks+Stls,False,Luguentz Dort,Oklahoma City,Luguentz Dort,G,OKC,Thunder
-2024-01-23T10:04:00-05:00,POR,False,21.0,standard,Fantasy Score,157,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Luguentz Dort,Oklahoma City,Luguentz Dort,G,OKC,Thunder
-2024-01-22T23:48:00-05:00,POR,False,12.5,standard,Single Stat,157,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Luguentz Dort,Oklahoma City,Luguentz Dort,G,OKC,Thunder
-2024-01-22T23:07:00-05:00,POR,False,11.5,standard,Single Stat,157,True,2024-01-23T20:10:00-05:00,Points,False,Luguentz Dort,Oklahoma City,Luguentz Dort,G,OKC,Thunder
-2024-01-22T23:34:00-05:00,POR,False,16.5,standard,Single Stat,157,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Luguentz Dort,Oklahoma City,Luguentz Dort,G,OKC,Thunder
-2024-01-22T23:43:00-05:00,POR,False,15.5,standard,Single Stat,157,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Luguentz Dort,Oklahoma City,Luguentz Dort,G,OKC,Thunder
-2024-01-01T20:10:00-05:00,OKC,False,9.5,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Points,False,Jabari Walker,Portland,Jabari Walker,F,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,8.5,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Jabari Walker,Portland,Jabari Walker,F,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,10.5,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Jabari Walker,Portland,Jabari Walker,F,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,16.5,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Jabari Walker,Portland,Jabari Walker,F,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,17.5,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Jabari Walker,Portland,Jabari Walker,F,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,0.5,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Steals,False,Jabari Walker,Portland,Jabari Walker,F,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,7.0,standard,Single Stat,158,True,2024-01-23T20:10:00-05:00,Rebounds,False,Jabari Walker,Portland,Jabari Walker,F,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,10.5,standard,Single Stat,160,True,2024-01-23T20:10:00-05:00,Points,False,Scoot Henderson,Portland,Scoot Henderson,G,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,17.5,standard,Single Stat,160,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Scoot Henderson,Portland,Scoot Henderson,G,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,13.0,standard,Single Stat,160,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Scoot Henderson,Portland,Scoot Henderson,G,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,0.5,standard,Single Stat,160,True,2024-01-23T20:10:00-05:00,Blks+Stls,False,Scoot Henderson,Portland,Scoot Henderson,G,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,OKC,False,14.5,standard,Single Stat,160,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Scoot Henderson,Portland,Scoot Henderson,G,POR,Trail Blazers
-2024-01-01T20:10:00-05:00,POR,False,0.5,standard,Single Stat,161,True,2024-01-23T20:10:00-05:00,Turnovers,False,Isaiah Joe,Oklahoma City,Isaiah Joe,G,OKC,Thunder
-2024-01-01T20:10:00-05:00,POR,False,8.0,standard,Single Stat,161,True,2024-01-23T20:10:00-05:00,Points,False,Isaiah Joe,Oklahoma City,Isaiah Joe,G,OKC,Thunder
-2024-01-01T20:10:00-05:00,POR,False,10.5,standard,Single Stat,161,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Isaiah Joe,Oklahoma City,Isaiah Joe,G,OKC,Thunder
-2024-01-01T20:10:00-05:00,POR,False,0.5,standard,Single Stat,163,True,2024-01-23T20:10:00-05:00,3-PT Made,False,Kenrich Williams,Oklahoma City,Kenrich Williams,G-F,OKC,Thunder
-2024-01-23T00:46:00-05:00,NOP,False,23.5,standard,Single Stat,201,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Collin Sexton,Utah,Collin Sexton,G,UTA,Jazz
-2024-01-23T11:17:00-05:00,NOP,False,33.0,standard,Fantasy Score,201,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Collin Sexton,Utah,Collin Sexton,G,UTA,Jazz
-2024-01-23T11:17:00-05:00,NOP,False,4.5,standard,Single Stat,201,True,2024-01-23T20:00:00-05:00,Free Throws Made,False,Collin Sexton,Utah,Collin Sexton,G,UTA,Jazz
-2024-01-23T00:31:00-05:00,NOP,False,4.5,standard,Single Stat,201,True,2024-01-23T20:10:00-05:00,Assists,False,Collin Sexton,Utah,Collin Sexton,G,UTA,Jazz
-2024-01-23T00:38:00-05:00,NOP,False,28.5,standard,Single Stat,201,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Collin Sexton,Utah,Collin Sexton,G,UTA,Jazz
-2024-01-23T00:50:00-05:00,NOP,False,26.5,standard,Single Stat,201,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Collin Sexton,Utah,Collin Sexton,G,UTA,Jazz
-2024-01-23T00:26:00-05:00,NOP,False,2.5,standard,Single Stat,201,True,2024-01-23T20:10:00-05:00,Rebounds,False,Collin Sexton,Utah,Collin Sexton,G,UTA,Jazz
-2024-01-23T00:12:00-05:00,NOP,False,21.5,standard,Single Stat,201,True,2024-01-23T20:10:00-05:00,Points,False,Collin Sexton,Utah,Collin Sexton,G,UTA,Jazz
-2024-01-23T11:17:00-05:00,UTA,False,0.5,standard,Single Stat,202,True,2024-01-23T20:00:00-05:00,Offensive Rebounds,False,CJ McCollum,New Orleans,CJ McCollum,G,NOP,Pelicans
-2024-01-23T00:38:00-05:00,UTA,False,27.5,standard,Single Stat,202,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,CJ McCollum,New Orleans,CJ McCollum,G,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,34.5,standard,Fantasy Score,202,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,CJ McCollum,New Orleans,CJ McCollum,G,NOP,Pelicans
-2024-01-23T00:46:00-05:00,UTA,False,22.5,standard,Single Stat,202,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,CJ McCollum,New Orleans,CJ McCollum,G,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,4.0,standard,Single Stat,202,True,2024-01-23T20:10:00-05:00,Rebounds,False,CJ McCollum,New Orleans,CJ McCollum,G,NOP,Pelicans
-2024-01-23T00:59:00-05:00,UTA,False,0.5,standard,Single Stat,202,True,2024-01-23T20:10:00-05:00,Blocked Shots,False,CJ McCollum,New Orleans,CJ McCollum,G,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,8.0,standard,Single Stat,202,True,2024-01-23T20:00:00-05:00,3-PT Attempted,False,CJ McCollum,New Orleans,CJ McCollum,G,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,15.0,standard,Single Stat,202,True,2024-01-23T20:00:00-05:00,FG Attempted,False,CJ McCollum,New Orleans,CJ McCollum,G,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,5.0,standard,Single Stat,202,True,2024-01-23T20:10:00-05:00,Assists,False,CJ McCollum,New Orleans,CJ McCollum,G,NOP,Pelicans
-2024-01-23T00:50:00-05:00,UTA,False,23.5,standard,Single Stat,202,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,CJ McCollum,New Orleans,CJ McCollum,G,NOP,Pelicans
-2024-01-23T00:54:00-05:00,UTA,False,9.5,standard,Single Stat,202,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,CJ McCollum,New Orleans,CJ McCollum,G,NOP,Pelicans
-2024-01-23T00:12:00-05:00,UTA,False,18.0,standard,Single Stat,202,True,2024-01-23T20:10:00-05:00,Points,False,CJ McCollum,New Orleans,CJ McCollum,G,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,2.5,standard,Single Stat,202,True,2024-01-23T20:00:00-05:00,Free Throws Made,False,CJ McCollum,New Orleans,CJ McCollum,G,NOP,Pelicans
-2024-01-23T00:46:00-05:00,UTA,False,12.5,standard,Single Stat,204,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Herbert Jones,New Orleans,Herbert Jones,G-F,NOP,Pelicans
-2024-01-23T00:59:00-05:00,UTA,False,0.5,standard,Single Stat,204,True,2024-01-23T20:10:00-05:00,Blocked Shots,False,Herbert Jones,New Orleans,Herbert Jones,G-F,NOP,Pelicans
-2024-01-23T01:03:00-05:00,UTA,False,1.5,standard,Single Stat,204,True,2024-01-23T20:10:00-05:00,Blks+Stls,False,Herbert Jones,New Orleans,Herbert Jones,G-F,NOP,Pelicans
-2024-01-01T00:12:00-05:00,UTA,False,9.0,standard,Single Stat,204,True,2024-01-23T20:10:00-05:00,Points,False,Herbert Jones,New Orleans,Herbert Jones,G-F,NOP,Pelicans
-2024-01-23T00:50:00-05:00,UTA,False,11.5,standard,Single Stat,204,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Herbert Jones,New Orleans,Herbert Jones,G-F,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,0.5,standard,Single Stat,204,True,2024-01-23T20:00:00-05:00,Dunks,False,Herbert Jones,New Orleans,Herbert Jones,G-F,NOP,Pelicans
-2024-01-23T00:46:00-05:00,NOP,False,11.5,standard,Single Stat,205,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Simone Fontecchio,Utah,Simone Fontecchio,F,UTA,Jazz
-2024-01-23T01:02:00-05:00,NOP,False,0.5,standard,Single Stat,205,True,2024-01-23T20:10:00-05:00,Steals,False,Simone Fontecchio,Utah,Simone Fontecchio,F,UTA,Jazz
-2024-01-01T00:12:00-05:00,NOP,False,8.0,standard,Single Stat,205,True,2024-01-23T20:10:00-05:00,Points,False,Simone Fontecchio,Utah,Simone Fontecchio,F,UTA,Jazz
-2024-01-23T01:02:00-05:00,UTA,False,0.5,standard,Single Stat,206,True,2024-01-23T20:10:00-05:00,Steals,False,Jonas Valanciunas,New Orleans,Jonas Valanciunas,C,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,0.5,standard,Single Stat,206,True,2024-01-23T20:00:00-05:00,Dunks,False,Jonas Valanciunas,New Orleans,Jonas Valanciunas,C,NOP,Pelicans
-2024-01-23T00:38:00-05:00,UTA,False,22.5,standard,Single Stat,206,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Jonas Valanciunas,New Orleans,Jonas Valanciunas,C,NOP,Pelicans
-2024-01-23T01:03:00-05:00,UTA,False,1.5,standard,Single Stat,206,True,2024-01-23T20:10:00-05:00,Blks+Stls,False,Jonas Valanciunas,New Orleans,Jonas Valanciunas,C,NOP,Pelicans
-2024-01-23T00:26:00-05:00,UTA,False,8.5,standard,Single Stat,206,True,2024-01-23T20:10:00-05:00,Rebounds,False,Jonas Valanciunas,New Orleans,Jonas Valanciunas,C,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,6.0,standard,Single Stat,206,True,2024-01-23T20:00:00-05:00,Defensive Rebounds,False,Jonas Valanciunas,New Orleans,Jonas Valanciunas,C,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,2.5,standard,Single Stat,206,True,2024-01-23T20:00:00-05:00,Free Throws Made,False,Jonas Valanciunas,New Orleans,Jonas Valanciunas,C,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,2.5,standard,Single Stat,206,True,2024-01-23T20:00:00-05:00,Offensive Rebounds,False,Jonas Valanciunas,New Orleans,Jonas Valanciunas,C,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,28.5,standard,Fantasy Score,206,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Jonas Valanciunas,New Orleans,Jonas Valanciunas,C,NOP,Pelicans
-2024-01-23T00:12:00-05:00,UTA,False,12.5,standard,Single Stat,206,True,2024-01-23T20:10:00-05:00,Points,False,Jonas Valanciunas,New Orleans,Jonas Valanciunas,C,NOP,Pelicans
-2024-01-23T00:46:00-05:00,UTA,False,20.5,standard,Single Stat,206,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Jonas Valanciunas,New Orleans,Jonas Valanciunas,C,NOP,Pelicans
-2024-01-23T00:54:00-05:00,UTA,False,10.5,standard,Single Stat,206,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Jonas Valanciunas,New Orleans,Jonas Valanciunas,C,NOP,Pelicans
-2024-01-23T00:50:00-05:00,UTA,False,14.5,standard,Single Stat,206,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Jonas Valanciunas,New Orleans,Jonas Valanciunas,C,NOP,Pelicans
-2024-01-01T20:10:00-05:00,NOP,False,5.0,standard,Single Stat,207,True,2024-01-23T20:10:00-05:00,Assists,False,Kris Dunn,Utah,Kris Dunn,G,UTA,Jazz
-2024-01-23T01:03:00-05:00,NOP,False,1.5,standard,Single Stat,207,True,2024-01-23T20:10:00-05:00,Blks+Stls,False,Kris Dunn,Utah,Kris Dunn,G,UTA,Jazz
-2024-01-23T00:54:00-05:00,NOP,False,7.5,standard,Single Stat,207,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Kris Dunn,Utah,Kris Dunn,G,UTA,Jazz
-2024-01-23T00:26:00-05:00,NOP,False,2.5,standard,Single Stat,207,True,2024-01-23T20:10:00-05:00,Rebounds,False,Kris Dunn,Utah,Kris Dunn,G,UTA,Jazz
-2024-01-23T00:12:00-05:00,UTA,False,24.5,standard,Single Stat,207,True,2024-01-23T20:10:00-05:00,Points,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,39.5,standard,Fantasy Score,208,True,2024-01-23T20:00:00-05:00,Fantasy Score,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,16.0,standard,Single Stat,208,True,2024-01-23T20:00:00-05:00,FG Attempted,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,1.5,standard,Single Stat,208,True,2024-01-23T20:00:00-05:00,Dunks,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,11.0,standard,Single Stat,208,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,4.5,standard,Single Stat,208,True,2024-01-23T20:00:00-05:00,Free Throws Made,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-23T11:17:00-05:00,UTA,False,16.0,standard,Single Stat,208,True,2024-01-23T20:00:00-05:00,FG Attempted,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,6.0,standard,Single Stat,208,True,2024-01-23T20:10:00-05:00,Rebounds,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-23T00:31:00-05:00,UTA,False,5.0,standard,Single Stat,208,True,2024-01-23T20:10:00-05:00,Assists,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-23T00:38:00-05:00,UTA,False,34.5,standard,Single Stat,208,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-23T01:06:00-05:00,UTA,False,2.5,standard,Single Stat,208,True,2024-01-23T20:10:00-05:00,Turnovers,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-23T00:50:00-05:00,UTA,False,29.5,standard,Single Stat,208,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-23T01:03:00-05:00,UTA,False,1.5,standard,Single Stat,208,True,2024-01-23T20:10:00-05:00,Blks+Stls,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-23T00:46:00-05:00,UTA,False,29.5,standard,Single Stat,208,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Zion Williamson,New Orleans,Zion Williamson,F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,NOP,False,22.5,standard,Single Stat,209,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Jordan Clarkson,Utah,Jordan Clarkson,G,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,3.5,standard,Single Stat,209,True,2024-01-23T20:10:00-05:00,Rebounds,False,Jordan Clarkson,Utah,Jordan Clarkson,G,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,8.0,standard,Single Stat,209,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Jordan Clarkson,Utah,Jordan Clarkson,G,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,19.5,standard,Single Stat,209,True,2024-01-23T20:10:00-05:00,Points,False,Jordan Clarkson,Utah,Jordan Clarkson,G,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,24.5,standard,Single Stat,209,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Jordan Clarkson,Utah,Jordan Clarkson,G,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,0.5,standard,Single Stat,209,True,2024-01-23T20:10:00-05:00,Steals,False,Jordan Clarkson,Utah,Jordan Clarkson,G,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,2.5,standard,Single Stat,209,True,2024-01-23T20:10:00-05:00,Turnovers,False,Jordan Clarkson,Utah,Jordan Clarkson,G,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,27.5,standard,Single Stat,209,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Jordan Clarkson,Utah,Jordan Clarkson,G,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,4.5,standard,Single Stat,209,True,2024-01-23T20:10:00-05:00,Assists,False,Jordan Clarkson,Utah,Jordan Clarkson,G,UTA,Jazz
-2024-01-01T20:10:00-05:00,UTA,False,14.5,standard,Single Stat,210,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Trey Murphy III,New Orleans,Trey Murphy III,G-F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,2.5,standard,Single Stat,210,True,2024-01-23T20:10:00-05:00,3-PT Made,False,Trey Murphy III,New Orleans,Trey Murphy III,G-F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,0.5,standard,Single Stat,210,True,2024-01-23T20:10:00-05:00,Turnovers,False,Trey Murphy III,New Orleans,Trey Murphy III,G-F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,13.5,standard,Single Stat,210,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Trey Murphy III,New Orleans,Trey Murphy III,G-F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,16.5,standard,Single Stat,210,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,Trey Murphy III,New Orleans,Trey Murphy III,G-F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,11.5,standard,Single Stat,210,True,2024-01-23T20:10:00-05:00,Points,False,Trey Murphy III,New Orleans,Trey Murphy III,G-F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,NOP,False,0.5,standard,Single Stat,211,True,2024-01-23T20:10:00-05:00,3-PT Made,False,Kelly Olynyk,Utah,Kelly Olynyk,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,4.0,standard,Single Stat,211,True,2024-01-23T20:10:00-05:00,Rebounds,False,Kelly Olynyk,Utah,Kelly Olynyk,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,10.5,standard,Single Stat,211,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Kelly Olynyk,Utah,Kelly Olynyk,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,7.5,standard,Single Stat,211,True,2024-01-23T20:10:00-05:00,Rebs+Asts,False,Kelly Olynyk,Utah,Kelly Olynyk,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,6.5,standard,Single Stat,211,True,2024-01-23T20:10:00-05:00,Points,False,Kelly Olynyk,Utah,Kelly Olynyk,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,0.5,standard,Single Stat,211,True,2024-01-23T20:10:00-05:00,Steals,False,Kelly Olynyk,Utah,Kelly Olynyk,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,10.5,standard,Single Stat,211,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Kelly Olynyk,Utah,Kelly Olynyk,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,UTA,False,1.5,standard,Single Stat,212,True,2024-01-23T20:10:00-05:00,Blks+Stls,False,Larry Nance Jr.,New Orleans,Larry Nance Jr.,F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,5.0,standard,Single Stat,212,True,2024-01-23T20:10:00-05:00,Rebounds,False,Larry Nance Jr.,New Orleans,Larry Nance Jr.,F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,11.5,standard,Single Stat,212,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Larry Nance Jr.,New Orleans,Larry Nance Jr.,F,NOP,Pelicans
-2024-01-01T20:10:00-05:00,NOP,False,11.5,standard,Single Stat,213,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,John Collins,Utah,John Collins,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,17.5,standard,Single Stat,213,True,2024-01-23T20:10:00-05:00,Pts+Rebs+Asts,False,John Collins,Utah,John Collins,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,10.5,standard,Single Stat,213,True,2024-01-23T20:10:00-05:00,Points,False,John Collins,Utah,John Collins,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,5.5,standard,Single Stat,213,True,2024-01-23T20:10:00-05:00,Rebounds,False,John Collins,Utah,John Collins,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,NOP,False,16.5,standard,Single Stat,213,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,John Collins,Utah,John Collins,F-C,UTA,Jazz
-2024-01-01T20:10:00-05:00,UTA,False,0.5,standard,Single Stat,214,True,2024-01-23T20:10:00-05:00,Turnovers,False,Jordan Hawkins,New Orleans,Jordan Hawkins,G,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,9.5,standard,Single Stat,214,True,2024-01-23T20:10:00-05:00,Points,False,Jordan Hawkins,New Orleans,Jordan Hawkins,G,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,11.5,standard,Single Stat,214,True,2024-01-23T20:10:00-05:00,Pts+Rebs,False,Jordan Hawkins,New Orleans,Jordan Hawkins,G,NOP,Pelicans
-2024-01-01T20:10:00-05:00,UTA,False,10.5,standard,Single Stat,214,True,2024-01-23T20:10:00-05:00,Pts+Asts,False,Jordan Hawkins,New Orleans,Jordan Hawkins,G,NOP,Pelicans
-2024-01-01T22:00:00-05:00,LAC,False,9.0,standard,Single Stat,250,True,2024-01-23T22:00:00-05:00,Defensive Rebounds,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-01T22:00:00-05:00,LAC,False,6.5,standard,Single Stat,250,True,2024-01-23T22:00:00-05:00,Free Throws Made,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,13.0,standard,Single Stat,250,True,2024-01-23T22:10:00-05:00,Rebounds,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-23T02:28:00-05:00,LAC,False,27.5,standard,Single Stat,250,True,2024-01-23T22:10:00-05:00,Points,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-01T02:49:00-05:00,LAC,False,45.0,standard,Single Stat,250,True,2024-01-23T22:10:00-05:00,Pts+Rebs+Asts,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-01T22:00:00-05:00,LAC,False,3.5,standard,Single Stat,250,True,2024-01-23T22:00:00-05:00,Offensive Rebounds,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-22T22:10:00-05:00,LAC,False,2.5,standard,Single Stat,250,True,2024-01-23T22:10:00-05:00,Dunks,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-01T22:00:00-05:00,LAC,False,18.5,standard,Single Stat,250,True,2024-01-23T22:00:00-05:00,FG Attempted,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-23T02:58:00-05:00,LAC,False,32.0,standard,Single Stat,250,True,2024-01-23T22:10:00-05:00,Pts+Asts,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,41.0,standard,Single Stat,250,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,17.5,standard,Single Stat,250,True,2024-01-23T22:10:00-05:00,Rebs+Asts,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,56.0,standard,Fantasy Score,250,True,2024-01-23T22:10:00-05:00,Fantasy Score,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-23T03:11:00-05:00,LAC,False,2.5,standard,Single Stat,250,True,2024-01-23T22:10:00-05:00,Turnovers,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,4.0,standard,Single Stat,250,True,2024-01-23T22:10:00-05:00,Assists,False,Anthony Davis,Los Angeles,Anthony Davis,F-C,LAL,Lakers
-2024-01-01T19:00:00-05:00,LAL,False,5.0,standard,Single Stat,251,True,2024-01-23T22:10:00-05:00,Rebounds,False,James Harden,LA,James Harden,G,LAC,Clippers
-2024-01-01T22:00:00-05:00,LAL,False,12.0,standard,Single Stat,251,True,2024-01-23T22:00:00-05:00,FG Attempted,False,James Harden,LA,James Harden,G,LAC,Clippers
-2024-01-22T19:00:00-05:00,LAL,False,22.5,standard,Single Stat,251,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,James Harden,LA,James Harden,G,LAC,Clippers
-2024-01-01T22:00:00-05:00,LAL,False,4.0,standard,Single Stat,251,True,2024-01-23T22:00:00-05:00,Free Throws Made,False,James Harden,LA,James Harden,G,LAC,Clippers
-2024-01-22T19:00:00-05:00,LAL,False,31.5,standard,Single Stat,251,True,2024-01-23T22:10:00-05:00,Pts+Rebs+Asts,False,James Harden,LA,James Harden,G,LAC,Clippers
-2024-01-22T19:00:00-05:00,LAL,False,2.5,standard,Single Stat,251,True,2024-01-23T22:10:00-05:00,3-PT Made,False,James Harden,LA,James Harden,G,LAC,Clippers
-2024-01-22T19:00:00-05:00,LAL,False,26.5,standard,Single Stat,251,True,2024-01-23T22:10:00-05:00,Pts+Asts,False,James Harden,LA,James Harden,G,LAC,Clippers
-2024-01-22T19:00:00-05:00,LAL,False,17.5,standard,Single Stat,251,True,2024-01-23T22:10:00-05:00,Points,False,James Harden,LA,James Harden,G,LAC,Clippers
-2024-01-22T19:00:00-05:00,LAL,False,14.0,standard,Single Stat,251,True,2024-01-23T22:10:00-05:00,Rebs+Asts,False,James Harden,LA,James Harden,G,LAC,Clippers
-2024-01-01T19:00:00-05:00,LAL,False,9.0,standard,Single Stat,251,True,2024-01-23T22:10:00-05:00,Assists,False,James Harden,LA,James Harden,G,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,39.5,standard,Fantasy Score,251,True,2024-01-23T22:10:00-05:00,Fantasy Score,False,James Harden,LA,James Harden,G,LAC,Clippers
-2024-01-01T22:00:00-05:00,LAL,False,6.5,standard,Single Stat,251,True,2024-01-23T22:00:00-05:00,3-PT Attempted,False,James Harden,LA,James Harden,G,LAC,Clippers
-2024-01-23T02:49:00-05:00,LAC,False,26.5,standard,Single Stat,252,True,2024-01-23T22:10:00-05:00,Pts+Rebs+Asts,False,Austin Reaves,Los Angeles,Austin Reaves,G,LAL,Lakers
-2024-01-01T22:00:00-05:00,LAC,False,11.5,standard,Single Stat,252,True,2024-01-23T22:00:00-05:00,FG Attempted,False,Austin Reaves,Los Angeles,Austin Reaves,G,LAL,Lakers
-2024-01-23T02:28:00-05:00,LAC,False,16.5,standard,Single Stat,252,True,2024-01-23T22:10:00-05:00,Points,False,Austin Reaves,Los Angeles,Austin Reaves,G,LAL,Lakers
-2024-01-01T22:00:00-05:00,LAC,False,0.5,standard,Single Stat,252,True,2024-01-23T22:00:00-05:00,Offensive Rebounds,False,Austin Reaves,Los Angeles,Austin Reaves,G,LAL,Lakers
-2024-01-23T02:58:00-05:00,LAC,False,22.5,standard,Single Stat,252,True,2024-01-23T22:10:00-05:00,Pts+Asts,False,Austin Reaves,Los Angeles,Austin Reaves,G,LAL,Lakers
-2024-01-23T03:02:00-05:00,LAC,False,10.0,standard,Single Stat,252,True,2024-01-23T22:10:00-05:00,Rebs+Asts,False,Austin Reaves,Los Angeles,Austin Reaves,G,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,31.0,standard,Fantasy Score,252,True,2024-01-23T22:10:00-05:00,Fantasy Score,False,Austin Reaves,Los Angeles,Austin Reaves,G,LAL,Lakers
-2024-01-01T22:00:00-05:00,LAC,False,3.5,standard,Single Stat,252,True,2024-01-23T22:00:00-05:00,Free Throws Made,False,Austin Reaves,Los Angeles,Austin Reaves,G,LAL,Lakers
-2024-01-23T02:54:00-05:00,LAC,False,20.5,standard,Single Stat,252,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,Austin Reaves,Los Angeles,Austin Reaves,G,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,6.0,standard,Single Stat,252,True,2024-01-23T22:10:00-05:00,Assists,False,Austin Reaves,Los Angeles,Austin Reaves,G,LAL,Lakers
-2024-01-23T02:46:00-05:00,LAC,False,1.5,standard,Single Stat,252,True,2024-01-23T22:10:00-05:00,3-PT Made,False,Austin Reaves,Los Angeles,Austin Reaves,G,LAL,Lakers
-2024-01-01T22:00:00-05:00,LAC,False,4.5,standard,Single Stat,252,True,2024-01-23T22:00:00-05:00,3-PT Attempted,False,Austin Reaves,Los Angeles,Austin Reaves,G,LAL,Lakers
-2024-01-23T03:08:00-05:00,LAL,False,1.5,standard,Single Stat,253,True,2024-01-23T22:10:00-05:00,Steals,False,Kawhi Leonard,LA,Kawhi Leonard,F,LAC,Clippers
-2024-01-23T02:58:00-05:00,LAL,False,28.5,standard,Single Stat,253,True,2024-01-23T22:10:00-05:00,Pts+Asts,False,Kawhi Leonard,LA,Kawhi Leonard,F,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,6.0,standard,Single Stat,253,True,2024-01-23T22:10:00-05:00,Rebounds,False,Kawhi Leonard,LA,Kawhi Leonard,F,LAC,Clippers
-2024-01-23T02:28:00-05:00,LAL,False,24.5,standard,Single Stat,253,True,2024-01-23T22:10:00-05:00,Points,False,Kawhi Leonard,LA,Kawhi Leonard,F,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,10.0,standard,Single Stat,253,True,2024-01-23T22:10:00-05:00,Rebs+Asts,False,Kawhi Leonard,LA,Kawhi Leonard,F,LAC,Clippers
-2024-01-01T22:00:00-05:00,LAL,False,4.0,standard,Single Stat,253,True,2024-01-23T22:00:00-05:00,Free Throws Made,False,Kawhi Leonard,LA,Kawhi Leonard,F,LAC,Clippers
-2024-01-01T22:00:00-05:00,LAL,False,17.5,standard,Single Stat,253,True,2024-01-23T22:00:00-05:00,FG Attempted,False,Kawhi Leonard,LA,Kawhi Leonard,F,LAC,Clippers
-2024-01-23T03:11:00-05:00,LAL,False,1.5,standard,Single Stat,253,True,2024-01-23T22:10:00-05:00,Turnovers,False,Kawhi Leonard,LA,Kawhi Leonard,F,LAC,Clippers
-2024-01-23T02:49:00-05:00,LAL,False,34.5,standard,Single Stat,253,True,2024-01-23T22:10:00-05:00,Pts+Rebs+Asts,False,Kawhi Leonard,LA,Kawhi Leonard,F,LAC,Clippers
-2024-01-23T02:54:00-05:00,LAL,False,31.5,standard,Single Stat,253,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,Kawhi Leonard,LA,Kawhi Leonard,F,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,42.5,standard,Fantasy Score,253,True,2024-01-23T22:10:00-05:00,Fantasy Score,False,Kawhi Leonard,LA,Kawhi Leonard,F,LAC,Clippers
-2024-01-23T02:42:00-05:00,LAL,False,3.5,standard,Single Stat,253,True,2024-01-23T22:10:00-05:00,Assists,False,Kawhi Leonard,LA,Kawhi Leonard,F,LAC,Clippers
-2024-01-23T02:54:00-05:00,LAC,False,22.5,standard,Single Stat,254,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,D'Angelo Russell,Los Angeles,D'Angelo Russell,G,LAL,Lakers
-2024-01-23T02:49:00-05:00,LAC,False,30.5,standard,Single Stat,254,True,2024-01-23T22:10:00-05:00,Pts+Rebs+Asts,False,D'Angelo Russell,Los Angeles,D'Angelo Russell,G,LAL,Lakers
-2024-01-23T02:46:00-05:00,LAC,False,2.5,standard,Single Stat,254,True,2024-01-23T22:10:00-05:00,3-PT Made,False,D'Angelo Russell,Los Angeles,D'Angelo Russell,G,LAL,Lakers
-2024-01-23T02:28:00-05:00,LAC,False,19.5,standard,Single Stat,254,True,2024-01-23T22:10:00-05:00,Points,False,D'Angelo Russell,Los Angeles,D'Angelo Russell,G,LAL,Lakers
-2024-01-23T03:02:00-05:00,LAC,False,10.5,standard,Single Stat,254,True,2024-01-23T22:10:00-05:00,Rebs+Asts,False,D'Angelo Russell,Los Angeles,D'Angelo Russell,G,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,7.5,standard,Single Stat,254,True,2024-01-23T22:10:00-05:00,Assists,False,D'Angelo Russell,Los Angeles,D'Angelo Russell,G,LAL,Lakers
-2024-01-23T02:58:00-05:00,LAC,False,27.5,standard,Single Stat,254,True,2024-01-23T22:10:00-05:00,Pts+Asts,False,D'Angelo Russell,Los Angeles,D'Angelo Russell,G,LAL,Lakers
-2024-01-23T03:11:00-05:00,LAC,False,2.5,standard,Single Stat,254,True,2024-01-23T22:10:00-05:00,Turnovers,False,D'Angelo Russell,Los Angeles,D'Angelo Russell,G,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,35.5,standard,Fantasy Score,254,True,2024-01-23T22:10:00-05:00,Fantasy Score,False,D'Angelo Russell,Los Angeles,D'Angelo Russell,G,LAL,Lakers
-2024-01-01T22:00:00-05:00,LAC,False,7.0,standard,Single Stat,254,True,2024-01-23T22:00:00-05:00,3-PT Attempted,False,D'Angelo Russell,Los Angeles,D'Angelo Russell,G,LAL,Lakers
-2024-01-23T02:54:00-05:00,LAC,False,13.5,standard,Single Stat,256,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,Taurean Prince,Los Angeles,Taurean Prince,F,LAL,Lakers
-2024-01-23T02:58:00-05:00,LAC,False,11.5,standard,Single Stat,256,True,2024-01-23T22:10:00-05:00,Pts+Asts,False,Taurean Prince,Los Angeles,Taurean Prince,F,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,18.5,standard,Fantasy Score,256,True,2024-01-23T22:10:00-05:00,Fantasy Score,False,Taurean Prince,Los Angeles,Taurean Prince,F,LAL,Lakers
-2024-01-23T02:28:00-05:00,LAC,False,10.0,standard,Single Stat,256,True,2024-01-23T22:10:00-05:00,Points,False,Taurean Prince,Los Angeles,Taurean Prince,F,LAL,Lakers
-2024-01-01T22:00:00-05:00,LAC,False,0.5,standard,Single Stat,256,True,2024-01-23T22:00:00-05:00,Free Throws Made,False,Taurean Prince,Los Angeles,Taurean Prince,F,LAL,Lakers
-2024-01-23T03:11:00-05:00,LAL,False,0.5,standard,Single Stat,257,True,2024-01-23T22:10:00-05:00,Turnovers,False,Terance Mann,LA,Terance Mann,G-F,LAC,Clippers
-2024-01-23T03:08:00-05:00,LAL,False,0.5,standard,Single Stat,257,True,2024-01-23T22:10:00-05:00,Steals,False,Terance Mann,LA,Terance Mann,G-F,LAC,Clippers
-2024-01-23T02:54:00-05:00,LAL,False,10.5,standard,Single Stat,257,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,Terance Mann,LA,Terance Mann,G-F,LAC,Clippers
-2024-01-23T02:28:00-05:00,LAL,False,7.5,standard,Single Stat,257,True,2024-01-23T22:10:00-05:00,Points,False,Terance Mann,LA,Terance Mann,G-F,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAC,False,18.0,standard,Single Stat,258,True,2024-01-23T22:10:00-05:00,Pts+Rebs+Asts,False,Rui Hachimura,Los Angeles,Rui Hachimura,F,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,16.5,standard,Single Stat,258,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,Rui Hachimura,Los Angeles,Rui Hachimura,F,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,13.0,standard,Single Stat,258,True,2024-01-23T22:10:00-05:00,Points,False,Rui Hachimura,Los Angeles,Rui Hachimura,F,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,14.0,standard,Single Stat,258,True,2024-01-23T22:10:00-05:00,Pts+Asts,False,Rui Hachimura,Los Angeles,Rui Hachimura,F,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAL,False,5.5,standard,Single Stat,259,True,2024-01-23T22:10:00-05:00,Rebounds,False,Russell Westbrook,LA,Russell Westbrook,G,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,1.5,standard,Single Stat,259,True,2024-01-23T22:10:00-05:00,Blks+Stls,False,Russell Westbrook,LA,Russell Westbrook,G,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,22.5,standard,Single Stat,259,True,2024-01-23T22:10:00-05:00,Pts+Rebs+Asts,False,Russell Westbrook,LA,Russell Westbrook,G,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,10.5,standard,Single Stat,259,True,2024-01-23T22:10:00-05:00,Rebs+Asts,False,Russell Westbrook,LA,Russell Westbrook,G,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,4.5,standard,Single Stat,259,True,2024-01-23T22:10:00-05:00,Assists,False,Russell Westbrook,LA,Russell Westbrook,G,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,16.5,standard,Single Stat,259,True,2024-01-23T22:10:00-05:00,Pts+Asts,False,Russell Westbrook,LA,Russell Westbrook,G,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,17.5,standard,Single Stat,259,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,Russell Westbrook,LA,Russell Westbrook,G,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,11.5,standard,Single Stat,259,True,2024-01-23T22:10:00-05:00,Points,False,Russell Westbrook,LA,Russell Westbrook,G,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAC,False,11.5,standard,Single Stat,260,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,Christian Wood,Los Angeles,Christian Wood,F,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,7.5,standard,Single Stat,260,True,2024-01-23T22:10:00-05:00,Points,False,Christian Wood,Los Angeles,Christian Wood,F,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAC,False,4.5,standard,Single Stat,260,True,2024-01-23T22:10:00-05:00,Rebounds,False,Christian Wood,Los Angeles,Christian Wood,F,LAL,Lakers
-2024-01-01T22:10:00-05:00,LAL,False,14.5,standard,Single Stat,261,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,Norman Powell,LA,Norman Powell,G,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,12.5,standard,Single Stat,261,True,2024-01-23T22:10:00-05:00,Pts+Asts,False,Norman Powell,LA,Norman Powell,G,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,12.0,standard,Single Stat,261,True,2024-01-23T22:10:00-05:00,Points,False,Norman Powell,LA,Norman Powell,G,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,17.5,standard,Single Stat,263,True,2024-01-23T22:10:00-05:00,Pts+Rebs+Asts,False,Mason Plumlee,LA,Mason Plumlee,F-C,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,15.5,standard,Single Stat,263,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,Mason Plumlee,LA,Mason Plumlee,F-C,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,9.0,standard,Single Stat,263,True,2024-01-23T22:10:00-05:00,Rebs+Asts,False,Mason Plumlee,LA,Mason Plumlee,F-C,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,8.0,standard,Single Stat,263,True,2024-01-23T22:10:00-05:00,Points,False,Mason Plumlee,LA,Mason Plumlee,F-C,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,1.5,standard,Single Stat,265,True,2024-01-23T22:10:00-05:00,Blks+Stls,False,Daniel Theis,LA,Daniel Theis,F-C,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,0.5,standard,Single Stat,265,True,2024-01-23T22:10:00-05:00,Turnovers,False,Daniel Theis,LA,Daniel Theis,F-C,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,4.0,standard,Single Stat,265,True,2024-01-23T22:10:00-05:00,Rebounds,False,Daniel Theis,LA,Daniel Theis,F-C,LAC,Clippers
-2024-01-01T22:10:00-05:00,LAL,False,10.5,standard,Single Stat,265,True,2024-01-23T22:10:00-05:00,Pts+Rebs,False,Daniel Theis,LA,Daniel Theis,F-C,LAC,Clippers
+Time Posted,Opponent,Promo,Line,Odds Type,Projection Type,Rank,Refundable,Game Start Time,Stat Type,Name,Combo Play,Display Name,Team City,Position,Team (Abrreviated),Team Name
+2024-02-21T22:00:00-05:00,LAL/GSW,False,44.5,standard,Single Stat,39,True,2024-02-22T22:00:00-05:00,Points (Combo),Klay Thompson + Anthony Davis,True,Klay Thompson + Anthony Davis,,F/C,GSW/LAL,
+2024-02-21T22:00:00-05:00,LAL/GSW,False,21.5,standard,Single Stat,40,True,2024-02-22T22:00:00-05:00,Rebounds (Combo),Draymond Green + Anthony Davis,True,Draymond Green + Anthony Davis,,F/C,GSW/LAL,
+2024-02-21T19:00:00-05:00,SAS/SAC,False,49.5,standard,Single Stat,43,True,2024-02-22T22:00:00-05:00,Points (Combo),De'Aaron Fox + Victor Wembanyama,True,De'Aaron Fox + Victor Wembanyama,,G/C,SAC/SAS,
+2024-02-21T19:00:00-05:00,SAS/SAC,False,5.0,standard,Single Stat,46,True,2024-02-22T22:00:00-05:00,3-PT Made (Combo),De'Aaron Fox + Devin Vassell,True,De'Aaron Fox + Devin Vassell,,G,SAC/SAS,
+2024-02-21T22:00:00-05:00,LAL,False,15.5,standard,Single Stat,550,True,2024-02-22T22:10:00-05:00,Pts+Asts,Andrew Wiggins,False,Andrew Wiggins,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,25.5,standard,Fantasy Score,550,True,2024-02-22T22:00:00-05:00,Fantasy Score,Andrew Wiggins,False,Andrew Wiggins,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,18.5,standard,Single Stat,550,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Andrew Wiggins,False,Andrew Wiggins,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,13.5,standard,Single Stat,550,True,2024-02-22T22:10:00-05:00,Points,Andrew Wiggins,False,Andrew Wiggins,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,5.0,standard,Single Stat,550,True,2024-02-22T22:10:00-05:00,Rebounds,Andrew Wiggins,False,Andrew Wiggins,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,20.5,standard,Single Stat,550,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Andrew Wiggins,False,Andrew Wiggins,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,0.5,standard,Single Stat,562,True,2024-02-22T22:10:00-05:00,Blocked Shots,Andrew Wiggins,False,Andrew Wiggins,Golden State,F,GSW,Warriors
+2024-02-16T19:30:00-05:00,GSW,False,28.5,standard,Single Stat,551,True,2024-02-22T22:10:00-05:00,Points,Anthony Davis,False,Anthony Davis,Los Angeles,F-C,LAL,Lakers
+2024-02-16T19:30:00-05:00,GSW,False,3.5,standard,Single Stat,551,True,2024-02-22T22:10:00-05:00,Blks+Stls,Anthony Davis,False,Anthony Davis,Los Angeles,F-C,LAL,Lakers
+2024-02-16T19:30:00-05:00,GSW,False,0.5,standard,Single Stat,551,True,2024-02-22T22:10:00-05:00,3-PT Made,Anthony Davis,False,Anthony Davis,Los Angeles,F-C,LAL,Lakers
+2024-02-16T19:30:00-05:00,GSW,False,18.0,standard,Single Stat,551,True,2024-02-22T22:10:00-05:00,Rebs+Asts,Anthony Davis,False,Anthony Davis,Los Angeles,F-C,LAL,Lakers
+2024-02-16T19:30:00-05:00,GSW,False,42.5,standard,Single Stat,551,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Anthony Davis,False,Anthony Davis,Los Angeles,F-C,LAL,Lakers
+2024-02-22T13:24:00-05:00,GSW,False,58.5,standard,Fantasy Score,551,True,2024-02-22T22:00:00-05:00,Fantasy Score,Anthony Davis,False,Anthony Davis,Los Angeles,F-C,LAL,Lakers
+2024-02-16T19:30:00-05:00,GSW,False,14.0,standard,Single Stat,551,True,2024-02-22T22:10:00-05:00,Rebounds,Anthony Davis,False,Anthony Davis,Los Angeles,F-C,LAL,Lakers
+2024-02-16T19:30:00-05:00,GSW,False,32.5,standard,Single Stat,551,True,2024-02-22T22:10:00-05:00,Pts+Asts,Anthony Davis,False,Anthony Davis,Los Angeles,F-C,LAL,Lakers
+2024-02-01T19:30:00-05:00,GSW,False,46.5,standard,Single Stat,551,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Anthony Davis,False,Anthony Davis,Los Angeles,F-C,LAL,Lakers
+2024-02-21T22:00:00-05:00,LAL,False,18.5,standard,Single Stat,552,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Draymond Green,False,Draymond Green,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,14.0,standard,Single Stat,552,True,2024-02-22T22:10:00-05:00,Rebs+Asts,Draymond Green,False,Draymond Green,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,31.5,standard,Fantasy Score,552,True,2024-02-22T22:00:00-05:00,Fantasy Score,Draymond Green,False,Draymond Green,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,6.5,standard,Single Stat,552,True,2024-02-22T22:10:00-05:00,Assists,Draymond Green,False,Draymond Green,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,25.0,standard,Single Stat,552,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Draymond Green,False,Draymond Green,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,17.5,standard,Single Stat,552,True,2024-02-22T22:10:00-05:00,Pts+Asts,Draymond Green,False,Draymond Green,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,24.5,standard,Single Stat,554,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Jonathan Kuminga,False,Jonathan Kuminga,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,0.5,standard,Single Stat,554,True,2024-02-22T22:10:00-05:00,3-PT Made,Jonathan Kuminga,False,Jonathan Kuminga,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,6.0,standard,Single Stat,554,True,2024-02-22T22:10:00-05:00,Rebounds,Jonathan Kuminga,False,Jonathan Kuminga,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,21.5,standard,Single Stat,554,True,2024-02-22T22:10:00-05:00,Pts+Asts,Jonathan Kuminga,False,Jonathan Kuminga,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,27.5,standard,Single Stat,554,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Jonathan Kuminga,False,Jonathan Kuminga,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,30.5,standard,Fantasy Score,554,True,2024-02-22T22:00:00-05:00,Fantasy Score,Jonathan Kuminga,False,Jonathan Kuminga,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,8.5,standard,Single Stat,554,True,2024-02-22T22:10:00-05:00,Rebs+Asts,Jonathan Kuminga,False,Jonathan Kuminga,Golden State,F,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,0.5,standard,Single Stat,555,True,2024-02-22T22:10:00-05:00,Steals,Jonathan Kuminga,False,Jonathan Kuminga,Golden State,F,GSW,Warriors
+2024-02-22T03:51:00-05:00,GSW,False,17.5,standard,Single Stat,555,True,2024-02-22T22:10:00-05:00,Points,Austin Reaves,False,Austin Reaves,Los Angeles,G,LAL,Lakers
+2024-02-22T04:00:00-05:00,GSW,False,6.5,standard,Single Stat,555,True,2024-02-22T22:10:00-05:00,Assists,Austin Reaves,False,Austin Reaves,Los Angeles,G,LAL,Lakers
+2024-02-22T13:24:00-05:00,GSW,False,34.5,standard,Fantasy Score,555,True,2024-02-22T22:00:00-05:00,Fantasy Score,Austin Reaves,False,Austin Reaves,Los Angeles,G,LAL,Lakers
+2024-02-22T04:12:00-05:00,GSW,False,28.5,standard,Single Stat,555,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Austin Reaves,False,Austin Reaves,Los Angeles,G,LAL,Lakers
+2024-02-22T04:20:00-05:00,GSW,False,10.5,standard,Single Stat,555,True,2024-02-22T22:10:00-05:00,Rebs+Asts,Austin Reaves,False,Austin Reaves,Los Angeles,G,LAL,Lakers
+2024-02-22T04:20:00-05:00,GSW,False,21.5,standard,Single Stat,555,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Austin Reaves,False,Austin Reaves,Los Angeles,G,LAL,Lakers
+2024-02-22T04:20:00-05:00,GSW,False,24.5,standard,Single Stat,555,True,2024-02-22T22:10:00-05:00,Pts+Asts,Austin Reaves,False,Austin Reaves,Los Angeles,G,LAL,Lakers
+2024-02-21T22:00:00-05:00,LAL,False,30.0,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Points,Stephen Curry,False,Stephen Curry,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,34.5,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Stephen Curry,False,Stephen Curry,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,35.5,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Pts+Asts,Stephen Curry,False,Stephen Curry,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,10.5,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Rebs+Asts,Stephen Curry,False,Stephen Curry,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,6.0,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Assists,Stephen Curry,False,Stephen Curry,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,5.5,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,3-PT Made,Stephen Curry,False,Stephen Curry,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,44.5,standard,Fantasy Score,556,True,2024-02-22T22:00:00-05:00,Fantasy Score,Stephen Curry,False,Stephen Curry,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,40.5,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Stephen Curry,False,Stephen Curry,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,4.5,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Rebounds,Stephen Curry,False,Stephen Curry,Golden State,G,GSW,Warriors
+2024-02-22T03:51:00-05:00,GSW,False,19.5,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Points,D'Angelo Russell,False,D'Angelo Russell,Los Angeles,G,LAL,Lakers
+2024-02-22T04:20:00-05:00,GSW,False,23.5,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Pts+Rebs,D'Angelo Russell,False,D'Angelo Russell,Los Angeles,G,LAL,Lakers
+2024-02-22T04:20:00-05:00,GSW,False,27.0,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Pts+Asts,D'Angelo Russell,False,D'Angelo Russell,Los Angeles,G,LAL,Lakers
+2024-02-22T04:20:00-05:00,GSW,False,11.0,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Rebs+Asts,D'Angelo Russell,False,D'Angelo Russell,Los Angeles,G,LAL,Lakers
+2024-02-01T04:00:00-05:00,GSW,False,7.0,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Assists,D'Angelo Russell,False,D'Angelo Russell,Los Angeles,G,LAL,Lakers
+2024-02-22T04:12:00-05:00,GSW,False,30.5,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,D'Angelo Russell,False,D'Angelo Russell,Los Angeles,G,LAL,Lakers
+2024-02-22T04:00:00-05:00,GSW,False,3.5,standard,Single Stat,556,True,2024-02-22T22:10:00-05:00,Rebounds,D'Angelo Russell,False,D'Angelo Russell,Los Angeles,G,LAL,Lakers
+2024-02-21T22:00:00-05:00,LAL,False,12.0,standard,Single Stat,557,True,2024-02-22T22:10:00-05:00,Rebs+Asts,Brandin Podziemski,False,Brandin Podziemski,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,17.5,standard,Single Stat,557,True,2024-02-22T22:10:00-05:00,Pts+Asts,Brandin Podziemski,False,Brandin Podziemski,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,7.0,standard,Single Stat,557,True,2024-02-22T22:10:00-05:00,Rebounds,Brandin Podziemski,False,Brandin Podziemski,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,1.5,standard,Single Stat,557,True,2024-02-22T22:10:00-05:00,3-PT Made,Brandin Podziemski,False,Brandin Podziemski,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,12.5,standard,Single Stat,557,True,2024-02-22T22:10:00-05:00,Points,Brandin Podziemski,False,Brandin Podziemski,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,24.5,standard,Single Stat,557,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Brandin Podziemski,False,Brandin Podziemski,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,5.0,standard,Single Stat,557,True,2024-02-22T22:10:00-05:00,Assists,Brandin Podziemski,False,Brandin Podziemski,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,19.5,standard,Single Stat,557,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Brandin Podziemski,False,Brandin Podziemski,Golden State,G,GSW,Warriors
+2024-02-22T03:51:00-05:00,GSW,False,16.5,standard,Single Stat,558,True,2024-02-22T22:10:00-05:00,Points,Rui Hachimura,False,Rui Hachimura,Los Angeles,F,LAL,Lakers
+2024-02-01T04:00:00-05:00,GSW,False,5.0,standard,Single Stat,558,True,2024-02-22T22:10:00-05:00,Rebounds,Rui Hachimura,False,Rui Hachimura,Los Angeles,F,LAL,Lakers
+2024-02-22T04:20:00-05:00,GSW,False,17.5,standard,Single Stat,558,True,2024-02-22T22:10:00-05:00,Pts+Asts,Rui Hachimura,False,Rui Hachimura,Los Angeles,F,LAL,Lakers
+2024-02-22T04:12:00-05:00,GSW,False,22.5,standard,Single Stat,558,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Rui Hachimura,False,Rui Hachimura,Los Angeles,F,LAL,Lakers
+2024-02-22T04:20:00-05:00,GSW,False,21.5,standard,Single Stat,558,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Rui Hachimura,False,Rui Hachimura,Los Angeles,F,LAL,Lakers
+2024-02-22T04:10:00-05:00,GSW,False,1.5,standard,Single Stat,558,True,2024-02-22T22:10:00-05:00,3-PT Made,Rui Hachimura,False,Rui Hachimura,Los Angeles,F,LAL,Lakers
+2024-02-21T22:00:00-05:00,LAL,False,18.5,standard,Single Stat,559,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Klay Thompson,False,Klay Thompson,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,17.5,standard,Single Stat,559,True,2024-02-22T22:10:00-05:00,Pts+Asts,Klay Thompson,False,Klay Thompson,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,15.5,standard,Single Stat,559,True,2024-02-22T22:10:00-05:00,Points,Klay Thompson,False,Klay Thompson,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,20.5,standard,Single Stat,559,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Klay Thompson,False,Klay Thompson,Golden State,G,GSW,Warriors
+2024-02-21T22:00:00-05:00,LAL,False,23.5,standard,Fantasy Score,560,True,2024-02-22T22:00:00-05:00,Fantasy Score,Klay Thompson,False,Klay Thompson,Golden State,G,GSW,Warriors
+2024-02-22T04:20:00-05:00,GSW,False,11.5,standard,Single Stat,560,True,2024-02-22T22:10:00-05:00,Pts+Asts,Taurean Prince,False,Taurean Prince,Los Angeles,F,LAL,Lakers
+2024-02-22T04:20:00-05:00,GSW,False,14.5,standard,Single Stat,560,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Taurean Prince,False,Taurean Prince,Los Angeles,F,LAL,Lakers
+2024-02-22T04:34:00-05:00,GSW,False,1.5,standard,Single Stat,560,True,2024-02-22T22:10:00-05:00,Blks+Stls,Taurean Prince,False,Taurean Prince,Los Angeles,F,LAL,Lakers
+2024-02-22T03:51:00-05:00,GSW,False,10.5,standard,Single Stat,560,True,2024-02-22T22:10:00-05:00,Points,Taurean Prince,False,Taurean Prince,Los Angeles,F,LAL,Lakers
+2024-02-21T22:10:00-05:00,GSW,False,10.5,standard,Single Stat,563,True,2024-02-22T22:10:00-05:00,Points,Spencer Dinwiddie,False,Spencer Dinwiddie,Los Angeles,G,LAL,Lakers
+2024-02-21T22:10:00-05:00,GSW,False,4.5,standard,Single Stat,563,True,2024-02-22T22:10:00-05:00,Assists,Spencer Dinwiddie,False,Spencer Dinwiddie,Los Angeles,G,LAL,Lakers
+2024-02-21T22:10:00-05:00,GSW,False,7.5,standard,Single Stat,563,True,2024-02-22T22:10:00-05:00,Rebs+Asts,Spencer Dinwiddie,False,Spencer Dinwiddie,Los Angeles,G,LAL,Lakers
+2024-02-21T22:10:00-05:00,GSW,False,15.0,standard,Single Stat,563,True,2024-02-22T22:10:00-05:00,Pts+Asts,Spencer Dinwiddie,False,Spencer Dinwiddie,Los Angeles,G,LAL,Lakers
+2024-02-21T22:10:00-05:00,GSW,False,13.5,standard,Single Stat,563,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Spencer Dinwiddie,False,Spencer Dinwiddie,Los Angeles,G,LAL,Lakers
+2024-02-21T22:10:00-05:00,GSW,False,18.0,standard,Single Stat,563,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Spencer Dinwiddie,False,Spencer Dinwiddie,Los Angeles,G,LAL,Lakers
+2024-02-21T22:10:00-05:00,LAL,False,3.5,standard,Single Stat,564,True,2024-02-22T22:10:00-05:00,Rebounds,Kevon Looney,False,Kevon Looney,Golden State,C-F,GSW,Warriors
+2024-02-21T22:10:00-05:00,LAL,False,0.5,standard,Single Stat,564,True,2024-02-22T22:10:00-05:00,Blks+Stls,Kevon Looney,False,Kevon Looney,Golden State,C-F,GSW,Warriors
+2024-02-21T19:00:00-05:00,SAS,False,2.5,standard,Single Stat,600,True,2024-02-22T22:10:00-05:00,Blks+Stls,De'Aaron Fox,False,De'Aaron Fox,Sacramento,G,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,25.5,standard,Single Stat,600,True,2024-02-22T22:10:00-05:00,Points,De'Aaron Fox,False,De'Aaron Fox,Sacramento,G,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,4.5,standard,Single Stat,600,True,2024-02-22T22:10:00-05:00,Rebounds,De'Aaron Fox,False,De'Aaron Fox,Sacramento,G,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,32.5,standard,Single Stat,600,True,2024-02-22T22:10:00-05:00,Pts+Asts,De'Aaron Fox,False,De'Aaron Fox,Sacramento,G,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,36.5,standard,Single Stat,600,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,De'Aaron Fox,False,De'Aaron Fox,Sacramento,G,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,11.0,standard,Single Stat,600,True,2024-02-22T22:10:00-05:00,Rebs+Asts,De'Aaron Fox,False,De'Aaron Fox,Sacramento,G,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,30.0,standard,Single Stat,600,True,2024-02-22T22:10:00-05:00,Pts+Rebs,De'Aaron Fox,False,De'Aaron Fox,Sacramento,G,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,2.5,standard,Single Stat,618,True,2024-02-22T22:10:00-05:00,3-PT Made,De'Aaron Fox,False,De'Aaron Fox,Sacramento,G,SAC,Kings
+2024-02-19T02:05:00-05:00,SAC,False,25.0,standard,Single Stat,601,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Devin Vassell,False,Devin Vassell,San Antonio,G,SAS,Spurs
+2024-02-01T01:47:00-05:00,SAC,False,4.0,standard,Single Stat,601,True,2024-02-22T22:10:00-05:00,Rebounds,Devin Vassell,False,Devin Vassell,San Antonio,G,SAS,Spurs
+2024-02-22T14:49:00-05:00,SAC,False,34.5,standard,Fantasy Score,601,True,2024-02-22T22:10:00-05:00,Fantasy Score,Devin Vassell,False,Devin Vassell,San Antonio,G,SAS,Spurs
+2024-02-19T01:36:00-05:00,SAC,False,20.5,standard,Single Stat,601,True,2024-02-22T22:10:00-05:00,Points,Devin Vassell,False,Devin Vassell,San Antonio,G,SAS,Spurs
+2024-02-19T02:27:00-05:00,SAC,False,1.5,standard,Single Stat,601,True,2024-02-22T22:10:00-05:00,Turnovers,Devin Vassell,False,Devin Vassell,San Antonio,G,SAS,Spurs
+2024-02-19T02:18:00-05:00,SAC,False,25.5,standard,Single Stat,601,True,2024-02-22T22:10:00-05:00,Pts+Asts,Devin Vassell,False,Devin Vassell,San Antonio,G,SAS,Spurs
+2024-02-19T02:22:00-05:00,SAC,False,8.5,standard,Single Stat,601,True,2024-02-22T22:10:00-05:00,Rebs+Asts,Devin Vassell,False,Devin Vassell,San Antonio,G,SAS,Spurs
+2024-02-01T01:50:00-05:00,SAC,False,4.0,standard,Single Stat,601,True,2024-02-22T22:10:00-05:00,Assists,Devin Vassell,False,Devin Vassell,San Antonio,G,SAS,Spurs
+2024-02-19T01:58:00-05:00,SAC,False,29.5,standard,Single Stat,601,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Devin Vassell,False,Devin Vassell,San Antonio,G,SAS,Spurs
+2024-02-19T01:55:00-05:00,SAC,False,2.5,standard,Single Stat,601,True,2024-02-22T22:10:00-05:00,3-PT Made,Devin Vassell,False,Devin Vassell,San Antonio,G,SAS,Spurs
+2024-02-21T19:00:00-05:00,SAS,False,35.5,standard,Single Stat,602,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Domantas Sabonis,False,Domantas Sabonis,Sacramento,C,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,44.5,standard,Single Stat,602,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Domantas Sabonis,False,Domantas Sabonis,Sacramento,C,SAC,Kings
+2024-02-22T14:49:00-05:00,SAS,False,52.0,standard,Fantasy Score,602,True,2024-02-22T22:10:00-05:00,Fantasy Score,Domantas Sabonis,False,Domantas Sabonis,Sacramento,C,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,0.5,standard,Single Stat,602,True,2024-02-22T22:10:00-05:00,Blocked Shots,Domantas Sabonis,False,Domantas Sabonis,Sacramento,C,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,22.5,standard,Single Stat,602,True,2024-02-22T22:10:00-05:00,Rebs+Asts,Domantas Sabonis,False,Domantas Sabonis,Sacramento,C,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,21.5,standard,Single Stat,602,True,2024-02-22T22:10:00-05:00,Points,Domantas Sabonis,False,Domantas Sabonis,Sacramento,C,SAC,Kings
+2024-02-01T19:00:00-05:00,SAS,False,9.0,standard,Single Stat,602,True,2024-02-22T22:10:00-05:00,Assists,Domantas Sabonis,False,Domantas Sabonis,Sacramento,C,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,30.5,standard,Single Stat,602,True,2024-02-22T22:10:00-05:00,Pts+Asts,Domantas Sabonis,False,Domantas Sabonis,Sacramento,C,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,13.5,standard,Single Stat,602,True,2024-02-22T22:10:00-05:00,Rebounds,Domantas Sabonis,False,Domantas Sabonis,Sacramento,C,SAC,Kings
+2024-02-19T01:47:00-05:00,SAC,False,6.0,standard,Single Stat,603,True,2024-02-22T22:10:00-05:00,Rebounds,Jeremy Sochan,False,Jeremy Sochan,San Antonio,F,SAS,Spurs
+2024-02-19T02:05:00-05:00,SAC,False,17.5,standard,Single Stat,603,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Jeremy Sochan,False,Jeremy Sochan,San Antonio,F,SAS,Spurs
+2024-02-19T02:18:00-05:00,SAC,False,14.5,standard,Single Stat,603,True,2024-02-22T22:10:00-05:00,Pts+Asts,Jeremy Sochan,False,Jeremy Sochan,San Antonio,F,SAS,Spurs
+2024-02-19T01:58:00-05:00,SAC,False,20.5,standard,Single Stat,603,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Jeremy Sochan,False,Jeremy Sochan,San Antonio,F,SAS,Spurs
+2024-02-01T02:22:00-05:00,SAC,False,8.5,standard,Single Stat,603,True,2024-02-22T22:10:00-05:00,Rebs+Asts,Jeremy Sochan,False,Jeremy Sochan,San Antonio,F,SAS,Spurs
+2024-02-19T01:36:00-05:00,SAC,False,11.5,standard,Single Stat,603,True,2024-02-22T22:10:00-05:00,Points,Jeremy Sochan,False,Jeremy Sochan,San Antonio,F,SAS,Spurs
+2024-02-22T14:49:00-05:00,SAC,False,25.5,standard,Fantasy Score,603,True,2024-02-22T22:10:00-05:00,Fantasy Score,Tre Jones,False,Tre Jones,San Antonio,G,SAS,Spurs
+2024-02-01T02:22:00-05:00,SAC,False,10.0,standard,Single Stat,605,True,2024-02-22T22:10:00-05:00,Rebs+Asts,Tre Jones,False,Tre Jones,San Antonio,G,SAS,Spurs
+2024-02-19T02:18:00-05:00,SAC,False,16.5,standard,Single Stat,605,True,2024-02-22T22:10:00-05:00,Pts+Asts,Tre Jones,False,Tre Jones,San Antonio,G,SAS,Spurs
+2024-02-19T01:55:00-05:00,SAC,False,0.5,standard,Single Stat,605,True,2024-02-22T22:10:00-05:00,3-PT Made,Tre Jones,False,Tre Jones,San Antonio,G,SAS,Spurs
+2024-02-19T02:05:00-05:00,SAC,False,12.5,standard,Single Stat,605,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Tre Jones,False,Tre Jones,San Antonio,G,SAS,Spurs
+2024-02-19T01:50:00-05:00,SAC,False,6.5,standard,Single Stat,605,True,2024-02-22T22:10:00-05:00,Assists,Tre Jones,False,Tre Jones,San Antonio,G,SAS,Spurs
+2024-02-19T01:58:00-05:00,SAC,False,19.5,standard,Single Stat,605,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Tre Jones,False,Tre Jones,San Antonio,G,SAS,Spurs
+2024-02-19T01:36:00-05:00,SAC,False,9.5,standard,Single Stat,605,True,2024-02-22T22:10:00-05:00,Points,Tre Jones,False,Tre Jones,San Antonio,G,SAS,Spurs
+2024-02-22T14:49:00-05:00,SAS,False,29.5,standard,Fantasy Score,604,True,2024-02-22T22:10:00-05:00,Fantasy Score,Keegan Murray,False,Keegan Murray,Sacramento,F,SAC,Kings
+2024-02-20T19:00:00-05:00,SAS,False,20.5,standard,Single Stat,606,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Keegan Murray,False,Keegan Murray,Sacramento,F,SAC,Kings
+2024-02-20T19:00:00-05:00,SAS,False,7.5,standard,Single Stat,606,True,2024-02-22T22:10:00-05:00,Rebs+Asts,Keegan Murray,False,Keegan Murray,Sacramento,F,SAC,Kings
+2024-02-20T19:00:00-05:00,SAS,False,15.5,standard,Single Stat,606,True,2024-02-22T22:10:00-05:00,Points,Keegan Murray,False,Keegan Murray,Sacramento,F,SAC,Kings
+2024-02-20T19:00:00-05:00,SAS,False,17.5,standard,Single Stat,606,True,2024-02-22T22:10:00-05:00,Pts+Asts,Keegan Murray,False,Keegan Murray,Sacramento,F,SAC,Kings
+2024-02-20T19:00:00-05:00,SAS,False,6.0,standard,Single Stat,606,True,2024-02-22T22:10:00-05:00,Rebounds,Keegan Murray,False,Keegan Murray,Sacramento,F,SAC,Kings
+2024-02-20T19:00:00-05:00,SAS,False,22.5,standard,Single Stat,606,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Keegan Murray,False,Keegan Murray,Sacramento,F,SAC,Kings
+2024-02-22T14:49:00-05:00,SAC,False,50.5,standard,Fantasy Score,605,True,2024-02-22T22:10:00-05:00,Fantasy Score,Victor Wembanyama,False,Victor Wembanyama,San Antonio,F-C,SAS,Spurs
+2024-02-19T02:22:00-05:00,SAC,False,14.0,standard,Single Stat,607,True,2024-02-22T22:10:00-05:00,Rebs+Asts,Victor Wembanyama,False,Victor Wembanyama,San Antonio,F-C,SAS,Spurs
+2024-02-19T02:18:00-05:00,SAC,False,27.5,standard,Single Stat,607,True,2024-02-22T22:10:00-05:00,Pts+Asts,Victor Wembanyama,False,Victor Wembanyama,San Antonio,F-C,SAS,Spurs
+2024-02-19T02:05:00-05:00,SAC,False,34.5,standard,Single Stat,607,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Victor Wembanyama,False,Victor Wembanyama,San Antonio,F-C,SAS,Spurs
+2024-02-19T01:58:00-05:00,SAC,False,37.5,standard,Single Stat,607,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Victor Wembanyama,False,Victor Wembanyama,San Antonio,F-C,SAS,Spurs
+2024-02-19T01:50:00-05:00,SAC,False,3.5,standard,Single Stat,607,True,2024-02-22T22:10:00-05:00,Assists,Victor Wembanyama,False,Victor Wembanyama,San Antonio,F-C,SAS,Spurs
+2024-02-19T01:47:00-05:00,SAC,False,10.5,standard,Single Stat,607,True,2024-02-22T22:10:00-05:00,Rebounds,Victor Wembanyama,False,Victor Wembanyama,San Antonio,F-C,SAS,Spurs
+2024-02-19T01:36:00-05:00,SAC,False,23.5,standard,Single Stat,607,True,2024-02-22T22:10:00-05:00,Points,Victor Wembanyama,False,Victor Wembanyama,San Antonio,F-C,SAS,Spurs
+2024-02-21T19:00:00-05:00,SAS,False,3.5,standard,Single Stat,608,True,2024-02-22T22:10:00-05:00,Rebounds,Kevin Huerter,False,Kevin Huerter,Sacramento,G-F,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,1.5,standard,Single Stat,608,True,2024-02-22T22:10:00-05:00,Blks+Stls,Kevin Huerter,False,Kevin Huerter,Sacramento,G-F,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,13.5,standard,Single Stat,608,True,2024-02-22T22:10:00-05:00,Pts+Asts,Kevin Huerter,False,Kevin Huerter,Sacramento,G-F,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,11.5,standard,Single Stat,608,True,2024-02-22T22:10:00-05:00,Points,Kevin Huerter,False,Kevin Huerter,Sacramento,G-F,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,17.5,standard,Single Stat,608,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Kevin Huerter,False,Kevin Huerter,Sacramento,G-F,SAC,Kings
+2024-02-21T19:00:00-05:00,SAS,False,14.5,standard,Single Stat,608,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Kevin Huerter,False,Kevin Huerter,Sacramento,G-F,SAC,Kings
+2024-02-19T02:27:00-05:00,SAC,False,0.5,standard,Single Stat,609,True,2024-02-22T22:10:00-05:00,Turnovers,Julian Champagnie,False,Julian Champagnie,San Antonio,F,SAS,Spurs
+2024-02-19T01:47:00-05:00,SAC,False,2.5,standard,Single Stat,609,True,2024-02-22T22:10:00-05:00,Rebounds,Julian Champagnie,False,Julian Champagnie,San Antonio,F,SAS,Spurs
+2024-02-21T03:15:00-05:00,SAC,False,17.5,standard,Single Stat,611,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Keldon Johnson,False,Keldon Johnson,San Antonio,G-F,SAS,Spurs
+2024-02-21T03:10:00-05:00,SAC,False,19.5,standard,Single Stat,611,True,2024-02-22T22:10:00-05:00,Pts+Rebs+Asts,Keldon Johnson,False,Keldon Johnson,San Antonio,G-F,SAS,Spurs
+2024-02-21T02:57:00-05:00,SAC,False,4.5,standard,Single Stat,611,True,2024-02-22T22:10:00-05:00,Rebounds,Keldon Johnson,False,Keldon Johnson,San Antonio,G-F,SAS,Spurs
+2024-02-21T02:57:00-05:00,SAC,False,13.0,standard,Single Stat,611,True,2024-02-22T22:10:00-05:00,Points,Keldon Johnson,False,Keldon Johnson,San Antonio,G-F,SAS,Spurs
+2024-02-21T03:15:00-05:00,SAC,False,14.5,standard,Single Stat,611,True,2024-02-22T22:10:00-05:00,Pts+Asts,Keldon Johnson,False,Keldon Johnson,San Antonio,G-F,SAS,Spurs
+2024-02-21T03:15:00-05:00,SAC,False,10.5,standard,Single Stat,613,True,2024-02-22T22:10:00-05:00,Pts+Asts,Malaki Branham,False,Malaki Branham,San Antonio,G,SAS,Spurs
+2024-02-21T02:57:00-05:00,SAC,False,8.0,standard,Single Stat,613,True,2024-02-22T22:10:00-05:00,Points,Malaki Branham,False,Malaki Branham,San Antonio,G,SAS,Spurs
+2024-02-21T03:15:00-05:00,SAC,False,10.5,standard,Single Stat,613,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Malaki Branham,False,Malaki Branham,San Antonio,G,SAS,Spurs
+2024-02-21T03:05:00-05:00,SAC,False,3.5,standard,Single Stat,614,True,2024-02-22T22:10:00-05:00,Assists,Blake Wesley,False,Blake Wesley,San Antonio,G,SAS,Spurs
+2024-02-22T04:40:00-05:00,SAC,False,2.5,standard,Single Stat,617,True,2024-02-22T22:10:00-05:00,Assists,Zach Collins,False,Zach Collins,San Antonio,F-C,SAS,Spurs
+2024-02-22T04:48:00-05:00,SAC,False,10.5,standard,Single Stat,617,True,2024-02-22T22:10:00-05:00,Pts+Asts,Zach Collins,False,Zach Collins,San Antonio,F-C,SAS,Spurs
+2024-02-22T04:48:00-05:00,SAC,False,12.5,standard,Single Stat,617,True,2024-02-22T22:10:00-05:00,Pts+Rebs,Zach Collins,False,Zach Collins,San Antonio,F-C,SAS,Spurs
+2024-02-22T04:40:00-05:00,SAC,False,7.5,standard,Single Stat,617,True,2024-02-22T22:10:00-05:00,Points,Zach Collins,False,Zach Collins,San Antonio,F-C,SAS,Spurs
