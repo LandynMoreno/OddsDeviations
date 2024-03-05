@@ -2,6 +2,7 @@ import json
 import pandas as pd
 
 # Load JSON from file with explicit encoding
+# gpt code below
 json_file_path = 'projections.json'
 with open(json_file_path, 'r', encoding='utf-8') as file:
     json_data = json.load(file)
