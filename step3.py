@@ -4,55 +4,43 @@ import pandas as pd
 books_results_df = pd.read_csv('./books-results.csv')
 output_df = pd.read_csv('./output.csv')
 
-# Ensure column names match your descriptions (adjust column names as necessary)
-# Assuming the relevant columns in `output.csv` are exactly named 'Stat Type', 'Combo Play', and 'Display Name'
-
-# Filter `output_df` for the conditions specified
-filtered_output_df = output_df[
-    (output_df['Stat Type'] == 'Rebounds') &
-    (output_df['Combo Play'] == False)  # Assuming 'Combo Play' is a boolean column
-]
-
-# Merge the filtered `output_df` with `books_results_df` based on the player's name
-# Assuming the player name column in `books_results_df` is named 'player' (adjust as necessary)
+# Merge the DataFrames based on your specified conditions
 combined_df = pd.merge(
-    filtered_output_df,
     books_results_df,
-    left_on='Display Name',
-    right_on='Player',
+    output_df[['Name', 'Stat Type', 'Line']],
+    left_on=['Player', 'Stat Type'],
+    right_on=['Name', 'Stat Type'],
     how='inner'
 )
 
-# Select and rename columns as specified
-final_df = combined_df[[
-    'Bookmaker', 'Player', 'Split', 'Odds', 'Line_y', 'Line_x'
-]].rename(columns={'Line_y': 'Books', 'Line_x': 'DFS'})
+# Select and rename columns as specified, assuming 'Line_y' from books_results and 'Line_x' from output
+final_df = combined_df.drop(columns=['Name']).rename(columns={'Line_y': 'DFS', 'Line_x': 'Books'})
 
 # Convert odds to numeric for comparison, assuming 'Odds' are stored as strings
 final_df['Odds'] = pd.to_numeric(final_df['Odds'], errors='coerce')
 
+# Define new conditions
+final_df['Edge Type'] = pd.NA  # Initialize the 'Edge Type' column with NA values
+
 # Define the list of specified bookmakers
-specified_bookmakers = ['draftkings', 'fanduel', 'bovada', 'betmgm', 'mybookieag']
+specified_bookmakers = ['draftkings', 'fanduel']
 
 # Check if 'Bookmaker' is one of the specified bookmakers
 bookmaker_condition = final_df['Bookmaker'].isin(specified_bookmakers)
 
-# Update conditions to include the bookmaker condition
-condition1 = (final_df['DFS'] > final_df['Books']) & (final_df['Split'] == 'Under') & (final_df['Odds'] <= -110) & bookmaker_condition
-condition2 = (final_df['DFS'] < final_df['Books']) & (final_df['Split'] == 'Over') & (final_df['Odds'] <= -110) & bookmaker_condition
-condition3 = (final_df['DFS'] == final_df['Books']) & (final_df['Odds'] <= -130) & bookmaker_condition
+final_df.loc[(final_df['Books'] > final_df['DFS']) & (final_df['Over/Under'] == 'Over') & (final_df['Odds'] <= -120) & (bookmaker_condition), 'Edge Type'] = 'Over Discrepancy'
+final_df.loc[(final_df['Books'] < final_df['DFS']) & (final_df['Over/Under'] == 'Under') & (final_df['Odds'] <= -120) & (bookmaker_condition), 'Edge Type'] = 'Under Discrepancy'
+final_df.loc[(final_df['Books'] == final_df['DFS']) & (final_df['Odds'] <= -135) & (bookmaker_condition), 'Edge Type'] = 'Heavy Favorite'
+final_df.loc[(final_df['Books'] == final_df['DFS']) & (final_df['Odds'] <= -125) & (final_df['Odds'] > -135) & (bookmaker_condition), 'Edge Type'] = 'Favored Line'
 
-# Filter rows that match any of the conditions
-priority_rows = final_df[condition1 | condition2 | condition3]
+# Filter out rows that don't meet any conditions
+final_df = final_df.dropna(subset=['Edge Type'])
 
-# Filter rows that do not match any of the conditions
-other_rows = final_df[~(condition1 | condition2 | condition3)]
+# Order the DataFrame based on the 'Edge Type' column to prioritize the conditions
+# This ordering assumes the categorical sorting of the 'Edge Type' column values matches your desired order
+ordered_df = final_df.sort_values(by='Edge Type', key=lambda col: col.map({'Over Discrepancy': 1, 'Under Discrepancy': 2, 'Heavy Favorite': 3, 'Favored Line': 4}))
 
-# Concatenate the priority rows and the other rows
-sorted_final_df = pd.concat([priority_rows, other_rows])
+# Save the ordered DataFrame to a new CSV file
+ordered_df.to_csv('./ordered_combined_books_output.csv', index=False)
 
-# Save the rearranged DataFrame to a new CSV file
-sorted_final_csv_path = './sorted_combined_books_output.csv'
-sorted_final_df.to_csv(sorted_final_csv_path, index=False)
-
-sorted_final_csv_path
+print("CSV file has been ordered and saved.")
