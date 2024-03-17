@@ -23,7 +23,7 @@ final_df['Odds'] = pd.to_numeric(final_df['Odds'], errors='coerce')
 final_df['Edge Type'] = pd.NA  # Initialize the 'Edge Type' column with NA values
 
 # Define the list of specified bookmakers
-specified_bookmakers = ['draftkings', 'fanduel']
+specified_bookmakers = ['draftkings', 'fanduel', 'fliff', 'espnbet', 'hardrockbet', 'pointsbetus', 'bovada', 'betus']
 
 # Check if 'Bookmaker' is one of the specified bookmakers
 bookmaker_condition = final_df['Bookmaker'].isin(specified_bookmakers)
@@ -36,11 +36,15 @@ final_df.loc[(final_df['Books'] == final_df['DFS']) & (final_df['Odds'] <= -125)
 # Filter out rows that don't meet any conditions
 final_df = final_df.dropna(subset=['Edge Type'])
 
-# Order the DataFrame based on the 'Edge Type' column to prioritize the conditions
-# This ordering assumes the categorical sorting of the 'Edge Type' column values matches your desired order
-ordered_df = final_df.sort_values(by='Edge Type', key=lambda col: col.map({'Over Discrepancy': 1, 'Under Discrepancy': 2, 'Heavy Favorite': 3, 'Favored Line': 4}))
+# Order the DataFrame based on the 'Edge Type' with secondary sorting on 'Odds' and 'Player'
+ordered_df = final_df.sort_values(
+    by=['Edge Type', 'Odds', 'Player'], 
+    key=lambda x: x.map({'Over Discrepancy': 1, 'Under Discrepancy': 2, 'Heavy Favorite': 3, 'Favored Line': 4}) if x.name == 'Edge Type' else x,
+    ascending=[True, True, True]
+)
 
 # Save the ordered DataFrame to a new CSV file
 ordered_df.to_csv('./ordered_combined_books_output.csv', index=False)
 
-print("CSV file has been ordered and saved.")
+print("CSV file has been ordered and saved with tiers, odds, and player names sorted.")
+
