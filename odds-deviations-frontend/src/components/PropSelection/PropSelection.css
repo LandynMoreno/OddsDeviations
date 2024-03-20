@@ -1,0 +1,53 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  .prop-selection-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .title {
+    font-size: 2rem;
+  }
+  
+  .account-icon {
+    /* Placeholder for the icon, use a library or an actual icon image here */
+    width: 50px;
+    height: 50px;
+    background-color: #ddd; /* Temporary background to represent the icon */
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .main-content {
+    text-align: center;
+  }
+  
+  .select-prop-title {
+    margin: 1rem 0;
+  }
+  
+  .checkbox-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .checkbox-label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+  }
+  
