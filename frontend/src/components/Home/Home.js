@@ -1,13 +1,22 @@
 import React from 'react';
-import './Home.css'; // Make sure to include your actual CSS file name
+import { useNavigate } from 'react-router-dom';
+import './Home.css'; 
 
-const Home = () => {
+function Home () {
+
+    const navigate = useNavigate();
+
+    function navigateToPropPicker () {
+        navigate('prop-picker');
+    }
+
+
     return (
         <div className="container">
             <div className="welcome-container">
                 <h1 className="welcome-title">Make your bets, smarter!</h1>
                 <p className="welcome-subheading">Use the data to your advantage and play discrepancies in your favor.</p>
-                <button className="welcome-button">Check out the tool</button>
+                <button onClick={navigateToPropPicker}>Check out the tool</button>
             </div>
             <div className="section">
                 <div className="section-content">
@@ -20,7 +29,7 @@ const Home = () => {
                         plays on the DFS app. </p>
                 </div>
                 <div className="section-content">
-                    <img className="stock-image" src="/assets/stock-image-1.png" alt="Stock Image"/>
+                    <img className="stock-image" src="/assets/stock-image-1.png" alt="Random"/>
                 </div>
             </div>
             <div className="section flipped">
@@ -32,7 +41,7 @@ const Home = () => {
                     </p>
                 </div>
                 <div className="section-content flipped">
-                    <img className="stock-image" src="/assets/stock-image-2.jpg" alt="Second Stock Image"/>
+                    <img className="stock-image" src="/assets/stock-image-2.jpg" alt="Second Random"/>
                 </div>
             </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 import './NavBar.css';
 
-function NavBar() {
+function NavBar () {
   return (
     <div>
       <nav id="desktop-nav">
