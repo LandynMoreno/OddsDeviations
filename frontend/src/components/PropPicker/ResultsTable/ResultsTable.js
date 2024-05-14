@@ -25,13 +25,18 @@ function ResultsTable({ entries }) {
         <table className="table">
           <thead>
             <tr>
-              <th style={{ width: '20%' }}>Game</th>
-              <th style={{ width: '20%' }}>Start Time</th>
-              <th style={{ width: '20%' }}>Player</th>
-              <th style={{ width: '20%' }}>Prop</th>
-              <th style={{ width: '5%' }}>DK</th>
-              <th style={{ width: '5%' }}>FD</th>
-              <th style={{ width: '5%' }}>BV</th>
+              <th style={{ width: '15%' }}>Game</th>
+              <th style={{ width: '15%' }}>Start Time</th>
+              <th style={{ width: '15%' }}>Player</th>
+              <th style={{ width: '15%' }}>Prop</th>
+              <th style={{ width: '5%' }}><img src="/icons/draftkings-icon.png" alt="Draftkings"/></th>
+              <th style={{ width: '5%' }}><img src="/icons/fanduel-icon.jpg" alt="FanDuel" /></th>
+              <th style={{ width: '5%' }}><img src="/icons/bovada-icon.jpg" alt="Bovada" /></th>
+              <th style={{ width: '5%' }}><img src="/icons/betmgm-icon.png" alt="Bet MGM" /></th>
+              <th style={{ width: '5%' }}><img src="/icons/mybookieag-icon.jpg" alt="MyBookie AG" /></th>
+              <th style={{ width: '5%' }}><img src="/icons/pointsbet-icon.png" alt="Points Bet US" /></th>
+              <th style={{ width: '5%' }}><img src="/icons/betonline-icon.jpg" alt="BetOnline" /></th>
+              <th style={{ width: '5%' }}><img src="/icons/betrivers-icon.png" alt="BetRivers" /></th>
             </tr>
           </thead>
           <tbody>

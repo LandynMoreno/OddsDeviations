@@ -18,7 +18,7 @@
     background-color: #ebebeb;
     border: 1px solid #ccc;
     border-radius: 8px;
-    background-image: url('../../Media/magnifying-glass-icon.png'); /* Include your icon image path */
+    background-image: url('../../../../public/icons/magnifying-glass-icon.png'); /* Include your icon image path */
     background-repeat: no-repeat;
     background-size: 20px;
     background-position: 10px 50%;
@@ -53,6 +53,14 @@
     font-size: medium;
     width: fit-content;
   }
+
+  .table th img {
+    width: 30px;  
+    height: 30px;
+    vertical-align: middle;
+    border-radius: 3px;
+  }
+
 
 
   

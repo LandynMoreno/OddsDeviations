@@ -1,8 +1,3 @@
-# ADDITIONS THAT NEED TO BE MADE TO THIS PROGRAM:
-# Command Line access to set the PROP_MARKETS Variable, ex: odds-api.py PROP_MARKETS='player_rebounds'
-# Make sure that the excel is setting the column name to PROP_MARKETS but that the column is filled
-# with 'point' variable from the JSON.
-
 import requests
 import pandas as pd
 
