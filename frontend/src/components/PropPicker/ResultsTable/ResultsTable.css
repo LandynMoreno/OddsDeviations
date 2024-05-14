@@ -1,0 +1,32 @@
+.results-table {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.search-input-container {
+    width: 25%; /* Adjust as necessary */
+    align-self: flex-start;
+  }
+  
+  .search-input {
+    width: 100%;
+    padding: 8px 12px;
+    padding-left: 40px; /* Make room for the icon */
+    background-color: #ebebeb;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-image: url('../../Media/magnifying-glass-icon.png'); /* Include your icon image path */
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 10px 50%;
+  }
+  
+  .table-container {
+    margin-top: 1rem;
+    width: 100%;
+    align-self: center;
+  }
+  

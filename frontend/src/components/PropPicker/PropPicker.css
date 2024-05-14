@@ -1,3 +1,7 @@
+.PropPicker .container {
+  width: 100%;
+}
+
 .dropdowns {
   display: flex;
   justify-content: flex-start;

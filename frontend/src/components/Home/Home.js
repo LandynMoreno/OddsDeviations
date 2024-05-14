@@ -7,9 +7,8 @@ function Home () {
     const navigate = useNavigate();
 
     function navigateToPropPicker () {
-        navigate('prop-picker');
+        navigate('PropPicker');
     }
-
 
     return (
         <div className="container">

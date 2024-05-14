@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './PropPicker.css';
+import ResultsTable from './ResultsTable/ResultsTable';
 
 function PropPicker () {
   const [sport, setSport] = useState('');
@@ -38,7 +39,7 @@ function PropPicker () {
   }
 
   return (
-    <div className="container">
+    <div className="container PropPicker">
       <div className="dropdowns">
         <select value={sport} onChange={(e) => setSport(e.target.value)} className={!sport ? 'placeholder' : ''}>
           <option value="" disabled hidden>Select a sport</option>

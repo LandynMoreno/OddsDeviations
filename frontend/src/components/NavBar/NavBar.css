@@ -15,9 +15,10 @@
   .Title {
     font-weight: 400;
     font-size: 50px;
+    cursor: pointer;
   }
   
   .Account-Icon {
-    /* Style for the account icon */
+    cursor: pointer;
   }
   
