@@ -29,8 +29,8 @@ function PropPicker () {
     // Simulate an API call
     setTimeout(() => {
       const data = [
-        { id: 1, game: "Bos @ Cle", playerName: "Player One", prop: "playerpoints", draftkings: "130", fanduel: "125", bovada: "120" },
-        { id: 2, game: "Okc @ Dal", playerName: "Player Two", prop: "player_rebounds", draftkings: "110", fanduel: "115", bovada: "105" }
+        { id: 1, game: "Bos @ Cle", startTime: "7:00 pm", playerName: "Player One", prop: "playerpoints", draftkings: "130", fanduel: "125", bovada: "120" },
+        { id: 2, game: "Okc @ Dal", startTime: "7:00 pm", playerName: "Player Two", prop: "player_rebounds", draftkings: "110", fanduel: "115", bovada: "105" }
       ];
 
       setFetchedData(data);

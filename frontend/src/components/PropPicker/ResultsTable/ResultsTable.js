@@ -22,15 +22,16 @@ function ResultsTable({ entries }) {
         </div>
 
       <div className="table-container">
-        <table className="min-w-full">
+        <table className="table">
           <thead>
             <tr>
-              <th>Game</th>
-              <th>Player Name</th>
-              <th>Prop</th>
-              <th>Draftkings</th>
-              <th>Fanduel</th>
-              <th>Bovada</th>
+              <th style={{ width: '20%' }}>Game</th>
+              <th style={{ width: '20%' }}>Start Time</th>
+              <th style={{ width: '20%' }}>Player</th>
+              <th style={{ width: '20%' }}>Prop</th>
+              <th style={{ width: '5%' }}>DK</th>
+              <th style={{ width: '5%' }}>FD</th>
+              <th style={{ width: '5%' }}>BV</th>
             </tr>
           </thead>
           <tbody>

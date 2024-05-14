@@ -14,7 +14,7 @@
   .search-input {
     width: 100%;
     padding: 8px 12px;
-    padding-left: 40px; /* Make room for the icon */
+    padding-left: 40px !important; /* Make room for the icon */
     background-color: #ebebeb;
     border: 1px solid #ccc;
     border-radius: 8px;
@@ -25,8 +25,34 @@
   }
   
   .table-container {
-    margin-top: 1rem;
+    margin-top: 0.25rem;
     width: 100%;
-    align-self: center;
+    align-self: flex-start;
+    overflow-x: auto; /* Ensures table is scrollable horizontally if too wide */
   }
+
+  .table {
+    width: 100%;
+    border-collapse: collapse; /* Ensures borders between cells are shared */
+  }
+
+  th {
+    background-color: #f4f4f4; /* A light grey background for the header */
+    color: #1a1f24; /* Dark text color for contrast */
+    font-weight: 400; /* Make header text bold */
+    font-size: large;
+    text-align: left; /* Center-align the text */
+    padding: 12px 15px; /* Generous padding for aesthetic spacing */
+    border-bottom: 2px solid #1a1f24; /* Add a bottom border for definition */
+  }
+
+  td {
+    text-align: left; /* Align text in cells to match headers */
+    padding: 10px 15px; /* Consistent padding with headers */
+    font-weight: 400;
+    font-size: medium;
+    width: fit-content;
+  }
+
+
   
