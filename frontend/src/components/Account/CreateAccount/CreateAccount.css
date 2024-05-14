@@ -1,0 +1,58 @@
+.create-account-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+}
+
+.create-account-form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+    text-align: center;
+    border: rgb(211, 192, 192);
+    border-style: solid;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.create-account-form h4 {
+    margin-bottom: 20px;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+}
+
+.inputs-container label {
+    display: block;
+    margin-bottom: 15px;
+}
+
+.inputs-container input[type="text"],
+.inputs-container input[type="password"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.error-message {
+    color: rgb(211, 192, 192);
+    margin-bottom: 10px;
+    font-size: 1rem;
+    padding-top: 5%;
+}
+
+.login-text {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: white;
+}
+
+.login-text span {
+    color: #4ee3c1;
+    text-decoration: underline;
+    cursor: pointer;
+}
