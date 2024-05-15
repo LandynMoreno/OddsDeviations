@@ -61,6 +61,11 @@
     border-radius: 3px;
   }
 
+  .results-table .table-container {
+    max-height: 60vh; /* Adjust the height as needed */
+    overflow-y: auto;
+  }
+
   .clickable-icon {
     cursor: pointer;
   }

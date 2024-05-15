@@ -13,8 +13,8 @@ const sportsbooks = {
 };
 
 function ResultsTable({ entries, prop }) {
-  const [filter, setFilter] = useState('');
   const [structuredData, setStructuredData] = useState([]);
+  const [filter, setFilter] = useState('');
 
   useEffect(() => {
     const processData = () => {
@@ -56,13 +56,12 @@ function ResultsTable({ entries, prop }) {
     <div className="container results-table">
       <div className="search-input-container">
         <input
-          type="text"
-          placeholder="Search for items"
-          className="search-input"
-          onChange={(e) => setFilter(e.target.value)}
+            type="text"
+            placeholder="Search for players"
+            className="search-input"
+            onChange={(e) => setFilter(e.target.value)}
         />
       </div>
-
       <div className="table-container">
         <table className="table">
           <thead>

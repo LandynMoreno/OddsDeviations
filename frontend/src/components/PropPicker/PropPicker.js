@@ -26,8 +26,7 @@ function PropPicker() {
         const response = await fetch('http://localhost:5000/get-nba-games');
         const games = await response.json();
         setGames(games);
-        console.log("Games Fetched: ", games);
-    };
+    }
 
     async function getSportsbookData() {
         if (!selectedGame.id || !prop) {
@@ -35,7 +34,6 @@ function PropPicker() {
             return;
         }
         setIsLoading(true);
-        console.log("Fetching sportsbook data for " + selectedGame.game + ", " + prop);
 
         try {
             const response = await fetch('http://localhost:5000/get-player-props', {
@@ -46,7 +44,6 @@ function PropPicker() {
             if (response.ok) {
                 const propsData = await response.json();
                 setFetchedData(propsData);
-                console.log('Player props fetched:', propsData); // Log fetched data for debugging
             } else {
                 throw new Error('Failed to fetch player props');
             }
