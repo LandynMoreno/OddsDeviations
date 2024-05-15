@@ -3,13 +3,13 @@ import TableEntry from './TableEntry/TableEntry';
 import './ResultsTable.css';
 
 const sportsbooks = {
-  "DraftKings": "draftkings-icon.png",
-  "FanDuel": "fanduel-icon.jpg",
-  "Bovada": "bovada-icon.jpg",
-  "BetMGM": "betmgm-icon.png",
-  "Caesars": "caesars-icon.png",
-  "BetOnline.AG": "betonlineag-icon.jpg",
-  "BetRivers": "betrivers-icon.png"
+  "DraftKings": { icon: "draftkings-icon.png", url: "https://www.draftkings.com" },
+  "FanDuel": { icon: "fanduel-icon.jpg", url: "https://www.fanduel.com" },
+  "Bovada": { icon: "bovada-icon.jpg", url: "https://www.bovada.lv" },
+  "BetMGM": { icon: "betmgm-icon.png", url: "https://www.betmgm.com" },
+  "Caesars": { icon: "caesars-icon.png", url: "https://www.caesars.com" },
+  "BetOnline.AG": { icon: "betonlineag-icon.jpg", url: "https://www.betonline.ag" },
+  "BetRivers": { icon: "betrivers-icon.png", url: "https://www.betrivers.com" }
 };
 
 function ResultsTable({ entries, prop }) {
@@ -72,8 +72,10 @@ function ResultsTable({ entries, prop }) {
               <th style={{ width: '12%' }}>Player</th>
               <th style={{ width: '7%' }}>Prop</th>
               {Object.keys(sportsbooks).map((book, index) => (
-                <th key={index} style={{ width: '9.08%' }}>
-                  <img src={`/icons/${sportsbooks[book]}`} alt={book} />
+                <th key={index} style={{ width: '9%' }}>
+                  <a href={sportsbooks[book].url} target="_blank" rel="noopener noreferrer">
+                    <img src={`/icons/${sportsbooks[book].icon}`} alt={book} className="clickable-icon" />
+                  </a>
                 </th>
               ))}
             </tr>

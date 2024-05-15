@@ -61,6 +61,7 @@
     border-radius: 3px;
   }
 
-
-
+  .clickable-icon {
+    cursor: pointer;
+  }
   
