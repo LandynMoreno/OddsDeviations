@@ -40,7 +40,7 @@ function Home () {
                     </p>
                 </div>
                 <div className="section-content flipped">
-                    <img className="stock-image" src="/assets/stock-image-2.jpg" alt="Second Random"/>
+                    <img className="stock-image" src="/assets/stock-image-2.png" alt="Second Random"/>
                 </div>
             </div>
         </div>
