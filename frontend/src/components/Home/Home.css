@@ -74,3 +74,12 @@
     object-fit: cover; /* This ensures the image covers the area without stretching, might crop the image */
   }
   
+  .right-align-list {
+    text-align: right;
+    list-style-position: inside; /* Ensures the bullets stay inside the list */
+  }
+
+  .right-align-list li {
+      display: inline-block;
+      width: 100%;
+  }

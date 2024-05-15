@@ -21,11 +21,10 @@ function Home () {
                 <div className="section-content">
                     <h2>Purpose</h2>
                     <p>The purpose of this tool is essentially to allow a bettor to capitalize on value when betting.
-                        For example, unlike sportsbooks, there are fixed odds on DFS apps. By only playing: a.
-                        lines that are favored by sportsbooks and b. discrepancies between the DFS apps and sportsbooks, you
-                        become advantageous. Ex: If you play on a DFS app 2 picks for a 3x payout, this is the equivalent of -137 odds for each.
-                        Therefore, if every sportsbook is offering -160 or worse odds on those same plays, there is a better value in playing those 2
-                        plays on the DFS app. </p>
+                        Not all sportsbooks advertise the same odds; therefore, if a user is looking to make a bet,
+                        they should utilize Odds Deviations first to ensure that they are getting the best possible value 
+                        for their specific bet. Additionally, users can take advantage of Odds Deviations by scanning the tool
+                        for arbitrage betting opportunities and more.</p>
                 </div>
                 <div className="section-content">
                     <img className="stock-image" src="/assets/stock-image-1.png" alt="Random"/>
@@ -34,9 +33,16 @@ function Home () {
             <div className="section flipped">
                 <div className="section-content flipped">
                     <h2>Upcoming Additions</h2>
-                    <p>The next version will include, but is not limited to the following. The tool will allow for full account
-                        access and settings. Additionally, expect a more cleaned up UI of the results from the tool. Lastly, the
-                        tool may be adding logistic regression machine learning models in order to assist with pick predictions. 
+                    <p>The next version will include, but is not limited to the following:
+                        <ul className='right-align-list'>
+                            <li>Full account access and settings.</li>
+                            <li/>
+                            <li>User interface improvements.</li>
+                            <li/>
+                            <li>Automation that points out arbitrage opportunties or large odds discrepancies.</li>
+                            <li/>
+                            <li>Logistical regression machine learning models in order to assist with pick predictions.</li>
+                        </ul> 
                     </p>
                 </div>
                 <div className="section-content flipped">
