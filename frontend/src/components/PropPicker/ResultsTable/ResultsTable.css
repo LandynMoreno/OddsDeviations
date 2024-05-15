@@ -44,6 +44,9 @@
     text-align: left; /* Center-align the text */
     padding: 12px 15px; /* Generous padding for aesthetic spacing */
     border-bottom: 2px solid #1a1f24; /* Add a bottom border for definition */
+    position: sticky;
+    top: 0;
+    z-index: 1;
   }
 
   td {
@@ -65,8 +68,37 @@
     max-height: 60vh; /* Adjust the height as needed */
     overflow-y: auto;
   }
-
+  
   .clickable-icon {
     cursor: pointer;
   }
-  
+
+  /* Custom scrollbar styling */
+  .results-table .table-container::-webkit-scrollbar {
+    width: 12px;
+  }
+
+  .results-table .table-container::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+
+  .results-table .table-container::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 6px;
+  }
+
+  .results-table .table-container::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+
+  /* Firefox scrollbar styling */
+  .results-table .table-container {
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+  }
+
+  /* General scrollbar styling for all browsers */
+  .results-table .table-container {
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+    
