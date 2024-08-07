@@ -7,3 +7,18 @@ For example, unlike sportsbooks, there are fixed odds on DFS apps. By only playi
 lines that are favored by sportsbooks and b. discrepancies between the DFS apps and sportsbooks, you
 become advantageous. Ex: If you play on a DFS app 2 picks for a 3x payout, this is the equivalent of -137 odds for each.
 Therefore, if every sportsbook is offering -160 or worse odds on those same plays, there is a better value in playing those 2 plays on the DFS app.
+
+How to use this project:
+Clone the Repo then perform the following commands in your terminal.
+
+To run the frontend:
+cd OddsProject
+cd frontend
+npm start
+
+This should boot up an instance of the frontend on your localhost that will be making endpoint calls to the localhost:5000. Therefore, we should load up the backend on the localhost as well.
+
+To run the backend:
+On a seperately running terminal,
+cd OddsProject
+cd backend
