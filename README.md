@@ -12,13 +12,15 @@ How to use this project:
 Clone the Repo then perform the following commands in your terminal.
 
 To run the frontend:
-cd OddsProject
-cd frontend
-npm start
+cd OddsProject -> cd frontend
+
+Now from the ~/OddsProject/Frontend run the following command: npm start
 
 This should boot up an instance of the frontend on your localhost that will be making endpoint calls to the localhost:5000. Therefore, we should load up the backend on the localhost as well.
 
 To run the backend:
-On a seperately running terminal,
-cd OddsProject
-cd backend
+On a seperately running terminal, cd OddsProject -> cd backend -> cd NBA
+
+Now from the ~/OddsProject/Backend/NBA run the following command: flask --app .\NBA-Games.py run
+
+This should boot up an instance of the backend on your localhost that will be the REST API server to the frontend.
